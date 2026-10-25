@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PhishShift | Message Risk Scanner</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="brand">
+            <span class="brand-icon">🛡️</span>
+            <span>PhishShift</span>
+        </div>
+
+        <span class="nav-label">
+            MESSAGE RISK SCANNER &nbsp;|&nbsp;
+            <a href="/tests" style="color:inherit;">TEST CASES</a>
+        </span>
+    </header>
+
+    <main class="container">
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="badge">🛡️ SMART MESSAGE SECURITY</div>
+
+            <h1>
+                Stay Safe from<br>
+                <span>Digital Threats.</span>
+            </h1>
+
+            <p>
+                Analyze suspicious messages using machine learning.
+                Identify potential phishing attempts before you click.
+            </p>
+        </section>
+
+        <!-- Scanner Card -->
+        <section class="scanner-card">
+
+            <div class="card-heading">
+                <div>
+                    <h2>Message Scanner</h2>
+                    <p>Paste an email or SMS message to analyze its risk.</p>
+                </div>
+
+                <span class="status-badge">● Scanner Ready</span>
+            </div>
+
+            <form method="POST" action="/">
+
+                <label for="message">MESSAGE CONTENT</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="7"
+                    maxlength="10000"
+                    placeholder="Example: Your bank account has been blocked. Click here to verify your password..."
+                    required>{{ message or '' }}</textarea>
+
+                <div class="input-footer">
+                    <span>🔒 Message analysis</span>
+                    <span id="char-count">0 characters</span>
+                </div>
+
+                <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:12px;">
+                    <button type="button" class="scan-button" style="width:auto; padding:8px 14px; font-size:14px;"
+                            onclick="fillExample('phish')">Try phishing example</button>
+                    <button type="button" class="scan-button" style="width:auto; padding:8px 14px; font-size:14px;"
+                            onclick="fillExample('legit')">Try legitimate example</button>
+                </div>
+
+                <button type="submit" class="scan-button">
+                    🔍 Analyze Message
+                </button>
+
+            </form>
+
+            <!-- Analysis Results -->
+            {% if result %}
+
+            <section class="result-box
+                {% if result.risk_level == 'High' %}danger
+                {% elif result.risk_level == 'Medium' or result.verdict == 'uncertain' %}warning
+                {% else %}safe{% endif %}">
+
+                <div class="result-title">
+
+                    <span class="result-icon">
+                        {% if result.verdict == 'uncertain' %}
+                            ❓
+                        {% elif result.risk_level == 'High' %}
+                            ⚠️
+                        {% elif result.risk_level == 'Medium' %}
+                            ⚡
+                        {% else %}
+                            🛡️
+                        {% endif %}
+                    </span>
+
+                    <div>
+                        <h3>{{ result.prediction }}</h3>
+                        <p>Model phishing probability: {{ result.ml_probability }}%</p>
+                    </div>
+
+                </div>
+
+                {% if result.verdict == 'uncertain' %}
+                <p class="disclaimer">
+                    The model is not confident about this message, so it
+                    does not give a firm answer. Please verify it manually.
+                </p>
+                {% endif %}
+
+                <!-- Risk Score -->
+                <div class="risk-section">
+
+                    <div class="risk-heading">
+                        <span>Overall Risk Score</span>
+
+                        <strong>{{ result.risk_score }} / 100</strong>
+                    </div>
+
+                    <div class="risk-bar">
+                        <div
+                            class="risk-progress
+                            {% if result.risk_level == 'High' %}high-risk
+                            {% elif result.risk_level == 'Medium' %}medium-risk
+                            {% else %}low-risk{% endif %}"
+                            style="width: {{ result.risk_score }}%;">
+                        </div>
+                    </div>
+
+                    <p class="risk-level">
+                        Risk Level:
+                        <strong>{{ result.risk_level }}</strong>
+                    </p>
+
+                    <p class="disclaimer">
+                        This score combines the model output and simple
+                        warning rules. It is not a verified probability
+                        that a message is malicious.
+                    </p>
+
+                </div>
+
+                <!-- Why this result -->
+                <div class="analysis-section">
+
+                    <h4>🧠 Why this result?</h4>
+
+                    {% if result.model_cues %}
+                        <p>Words that raised the risk:</p>
+                        <div class="phrase-list">
+                            {% for word in result.model_cues %}
+                                <span class="phrase-tag">{{ word }}</span>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        <p>No strong risk words were found by the model.</p>
+                    {% endif %}
+
+                    {% if result.safe_words %}
+                        <p>Words that lowered the risk:</p>
+                        <div class="phrase-list">
+                            {% for word in result.safe_words %}
+                                <span class="phrase-tag">{{ word }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+                    {% if result.safe_cues %}
+                        <p>Reassuring phrases found:</p>
+                        <div class="phrase-list">
+                            {% for cue in result.safe_cues %}
+                                <span class="phrase-tag">{{ cue }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+
+                </div>
+
+                <!-- Suspicious Phrases -->
+                <div class="analysis-section">
+
+                    <h4>🔍 Suspicious Phrases</h4>
+
+                    {% if result.found_phrases %}
+
+                        <p>Potential warning phrases found:</p>
+
+                        <div class="phrase-list">
+                            {% for phrase in result.found_phrases %}
+                                <span class="phrase-tag">
+                                    {{ phrase }}
+                                </span>
+                            {% endfor %}
+                        </div>
+
+                    {% else %}
+
+                        <p>No configured warning phrases were detected.</p>
+
+                    {% endif %}
+
+                </div>
+
+                <!-- URL Analysis -->
+                <div class="analysis-section">
+
+                    <h4>🔗 URL Analysis</h4>
+
+                    {% if result.urls %}
+
+                        {% for item in result.urls %}
+
+                            <div class="url-item">
+
+                                <p class="url-text">
+                                    {{ item.url }}
+                                </p>
+
+                                {% if item.reasons %}
+
+                                    <p class="url-warning">
+                                        ⚠️ Warning signs:
+                                    </p>
+
+                                    <ul>
+                                        {% for reason in item.reasons %}
+                                            <li>{{ reason }}</li>
+                                        {% endfor %}
+                                    </ul>
+
+                                {% else %}
+
+                                    <p>
+                                        No configured URL warning signs
+                                        were detected.
+                                    </p>
+
+                                {% endif %}
+
+                            </div>
+
+                        {% endfor %}
+
+                    {% else %}
+
+                        <p>No URLs were detected in this message.</p>
+
+                    {% endif %}
+
+                    <p class="disclaimer">
+                        A URL without these warning signs can still be
+                        malicious. Do not open an unfamiliar link just
+                        because it appears safe here.
+                    </p>
+
+                </div>
+
+                <!-- Safety Recommendations -->
+                <div class="tips">
+
+                    <h4>🛡️ Safety Recommendations</h4>
+
+                    <ul>
+                        {% for recommendation in result.recommendations %}
+                            <li>{{ recommendation }}</li>
+                        {% endfor %}
+                    </ul>
+
+                </div>
+
+                <p class="disclaimer">
+                    PhishShift provides an automated screening result,
+                    not a guarantee. Always verify suspicious messages
+                    through official channels.
+                </p>
+
+            </section>
+
+            {% endif %}
+
+        </section>
+
+        <!-- Model Performance -->
+        <section class="scanner-card" style="margin-top: 24px;">
+
+            <div class="card-heading">
+                <div>
+                    <h2>Model Performance</h2>
+                    <p>Results on unseen phishing campaigns.</p>
+                </div>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
+                <img src="{{ url_for('static', filename='distribution.png') }}"
+                     alt="Label distribution"
+                     style="max-width:100%; width:480px;">
+
+                <img src="{{ url_for('static', filename='campaigns.png') }}"
+                     alt="Campaign distribution"
+                     style="max-width:100%; width:480px;">
+
+                <img src="{{ url_for('static', filename='confusion_matrix.png') }}"
+                     alt="Confusion matrix"
+                     style="max-width:100%; width:480px;">
+
+                <img src="{{ url_for('static', filename='model_comparison.png') }}"
+                     alt="Model comparison"
+                     style="max-width:100%; width:480px;">
+            </div>
+
+        </section>
+
+        {% include 'dashboard.html' %}
+
+        <!-- Features -->
+        <section class="feature-grid">
+
+            <article class="feature-card">
+                <div class="feature-icon blue">🤖</div>
+
+                <h3>ML-Powered Analysis</h3>
+
+                <p>
+                    Uses a machine learning model to classify messages.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon green">🔐</div>
+
+                <h3>Suspicious Phrase Detection</h3>
+
+                <p>
+                    Checks for configured phrases often associated
+                    with phishing attempts.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon purple">⚡</div>
+
+                <h3>Quick Risk Assessment</h3>
+
+                <p>
+                    Displays a risk score, warning signs and
+                    practical safety recommendations.
+                </p>
+            </article>
+
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>PhishShift · Machine Learning Mini Project</p>
+            <p>Built for safer digital communication.</p>
+        </footer>
+
+    </main>
+
+    <script>
+        const messageBox = document.getElementById("message");
+        const charCount = document.getElementById("char-count");
+
+        function updateCount() {
+            charCount.textContent =
+                messageBox.value.length + " characters";
+        }
+
+        messageBox.addEventListener("input", updateCount);
+        updateCount();
+
+        function fillExample(kind) {
+            if (kind === "phish") {
+                messageBox.value =
+                    "Urgent! Your bank account will be blocked. Click here to verify your password: hxxp://secure-login[.]example[.]test/verify";
+            } else {
+                messageBox.value =
+                    "You requested a password reset for your campus portal. If you did not request this, ignore this message.";
+            }
+            updateCount();
+        }
+    </script>
+
+</body>
+</html>

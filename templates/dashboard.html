@@ -1,0 +1,121 @@
+<!-- Results tables (shown on the home page) -->
+<section class="scanner-card" style="margin-top: 24px;">
+
+    <div class="card-heading">
+        <div>
+            <h2>Model Comparison</h2>
+            <p>Tested on campaigns the model never saw during training.</p>
+        </div>
+    </div>
+
+    {% if comparison %}
+    <div style="overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse; font-size:16px;">
+            <thead>
+                <tr>
+                    <th style="text-align:left; padding:10px; border-bottom:2px solid #888;">Model</th>
+                    <th style="text-align:left; padding:10px; border-bottom:2px solid #888;">Accuracy</th>
+                    <th style="text-align:left; padding:10px; border-bottom:2px solid #888;">F1 (phishing)</th>
+                    <th style="text-align:left; padding:10px; border-bottom:2px solid #888;">False-positive rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in comparison %}
+                <tr>
+                    <td style="padding:10px; border-bottom:1px solid #bbb;"><strong>{{ row.model }}</strong></td>
+                    <td style="padding:10px; border-bottom:1px solid #bbb;">{{ row.accuracy }}</td>
+                    <td style="padding:10px; border-bottom:1px solid #bbb;">{{ row.f1_phishing }}</td>
+                    <td style="padding:10px; border-bottom:1px solid #bbb;">{{ row.false_positive_rate }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p>Run train.py to generate the results table.</p>
+    {% endif %}
+
+    {% if drift %}
+    <h3 style="margin-top:24px;">Robustness to Text Changes</h3>
+    <div style="overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse; font-size:16px;">
+            <thead>
+                <tr>
+                    <th style="text-align:left; padding:10px; border-bottom:2px solid #888;">Change applied</th>
+                    <th style="text-align:left; padding:10px; border-bottom:2px solid #888;">Accuracy</th>
+                    <th style="text-align:left; padding:10px; border-bottom:2px solid #888;">Accuracy drift</th>
+                    <th style="text-align:left; padding:10px; border-bottom:2px solid #888;">Probability shift</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in drift %}
+                <tr>
+                    <td style="padding:10px; border-bottom:1px solid #bbb;">{{ row.perturbation }}</td>
+                    <td style="padding:10px; border-bottom:1px solid #bbb;">{{ row.accuracy }}</td>
+                    <td style="padding:10px; border-bottom:1px solid #bbb;">{{ row.accuracy_drift }}</td>
+                    <td style="padding:10px; border-bottom:1px solid #bbb;">{{ row.mean_phish_prob_shift }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+
+</section>
+
+<section class="scanner-card" style="margin-top: 24px;">
+
+    <div class="card-heading">
+        <div>
+            <h2>Acceptance Test Cases</h2>
+            <p>
+                AT-01: legitimate urgent messages. AT-02: unfamiliar phishing
+                wording. AT-03: URL and punctuation changes.
+            </p>
+        </div>
+    </div>
+
+    <div style="overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse; font-size:15px;">
+            <thead>
+                <tr>
+                    <th style="text-align:left; padding:8px; border-bottom:2px solid #888;">Case</th>
+                    <th style="text-align:left; padding:8px; border-bottom:2px solid #888;">Message</th>
+                    <th style="text-align:left; padding:8px; border-bottom:2px solid #888;">Expected</th>
+                    <th style="text-align:left; padding:8px; border-bottom:2px solid #888;">Result</th>
+                    <th style="text-align:left; padding:8px; border-bottom:2px solid #888;">Model %</th>
+                    <th style="text-align:left; padding:8px; border-bottom:2px solid #888;">Risk</th>
+                    <th style="text-align:left; padding:8px; border-bottom:2px solid #888;">Pass?</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in test_rows %}
+                <tr>
+                    <td style="padding:8px; border-bottom:1px solid #bbb;">
+                        <strong>{{ row.case }}</strong><br>{{ row.title }}
+                    </td>
+                    <td style="padding:8px; border-bottom:1px solid #bbb; max-width:320px; word-break:break-word;">
+                        {{ row.message }}
+                    </td>
+                    <td style="padding:8px; border-bottom:1px solid #bbb;">{{ row.expected }}</td>
+                    <td style="padding:8px; border-bottom:1px solid #bbb;">{{ row.result.prediction }}</td>
+                    <td style="padding:8px; border-bottom:1px solid #bbb;">{{ row.result.ml_probability }}%</td>
+                    <td style="padding:8px; border-bottom:1px solid #bbb;">
+                        {{ row.result.risk_score }} ({{ row.result.risk_level }})
+                    </td>
+                    <td style="padding:8px; border-bottom:1px solid #bbb; font-size:18px;">
+                        {% if row.status == 'pass' %}✅{% elif row.status == 'uncertain' %}⚠️ Uncertain{% else %}❌{% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <p class="disclaimer" style="margin-top:16px;">
+        ✅ = correct, ⚠️ = the model abstained and asked for manual
+        verification, ❌ = wrong. Results are decision support, not a
+        guarantee of safety.
+    </p>
+
+</section>

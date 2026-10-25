@@ -1,0 +1,4 @@
+model,accuracy,f1_phishing,false_positive_rate
+Rules (keywords),0.585,0.452,0.469
+TF-IDF + Logistic Regression,1.0,1.0,0.0
+TF-IDF + Random Forest,0.951,0.9,0.062

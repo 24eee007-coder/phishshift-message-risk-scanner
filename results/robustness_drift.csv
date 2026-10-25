@@ -1,0 +1,4 @@
+perturbation,accuracy,accuracy_drift,mean_phish_prob_shift
+uppercase,1.0,0.0,0.0
+defang_change,1.0,0.0,-0.003
+punctuation,1.0,0.0,0.004

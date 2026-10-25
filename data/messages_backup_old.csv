@@ -1,0 +1,11 @@
+message,label
+"Congratulations! You won a free prize. Claim it now!",phishing
+"Your bank account will be blocked. Verify your details immediately!",phishing
+"Urgent! Click here to confirm your account password.",phishing
+"You have won a lottery. Pay a fee to receive your reward.",phishing
+"Your account has suspicious activity. Verify your identity now!",phishing
+"Your package delivery is delayed. Check the official delivery website.",legitimate
+"Reminder: Your college project review is tomorrow at 10 AM.",legitimate
+"Your electricity bill is due next week. Please check your official account.",legitimate
+"Your meeting is scheduled for Monday at 9 AM.",legitimate
+"Your password reset request has been received. If this was not you, contact official support.",legitimate

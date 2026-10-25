@@ -1,0 +1,204 @@
+message_id,campaign_group,label,body_text
+M0461,ph_invoice,phishing,"YOUR ORDER #3543 COULD NOT BE PROCESSED, CONFIRM CARD DETAILS WITHIN 12 HOURS. HXXPS://SHO[.]RT/A1B2C"
+M0252,ph_invoice,phishing,Invoice #8800 is overdue. Update payment here to avoid penalty: hxxp://account-update[.]example[.]test/confirm
+M0208,ph_tech_support,phishing,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]35/login
+M0369,lg_delivery_update,legitimate,Order #8994 has been shipped and will arrive within 3 days.
+M0385,lg_bank_official,legitimate,Axis Plain Bank: your statement is ready. View it in the official mobile app.
+M0152,ph_tax_refund,phishing,Refund pending: confirm your identity and account number within 12 hours. hxxps://hr[.]example[.]test/policy
+M0066,ph_lottery,phishing,You won a lottery draw. Send your bank details to receive a gift voucher. Claim it now! hxxps://sho[.]rt/Qw7Er
+M0454,lg_college_notice,legitimate,Lab session on Wednesday at 2 PM in Lab 3. Bring your record book.
+M0294,lg_password_reset,legitimate,"You requested a password reset for your campus portal. If this was you, use the link: hxxps://hr[.]example[.]test/policy If not, ignore this message."
+M0174,ph_job_offer,phishing,"Congratulations, you are selected for work from home. Pay Rs. 25 registration fee to start. hxxps://hr[.]example[.]test/policy"
+M0101,ph_delivery_fee,phishing,Delivery failed. Re-schedule and pay Rs. 25 now or the package returns. hxxps://sho[.]rt/Qw7Er
+M0108,ph_kyc_update,phishing,Your KYC is expired. Update immediately to avoid account suspended. hxxps://sho[.]rt/x9Yz3
+M0418,lg_hr_policy,legitimate,Office will remain closed on Monday for a public holiday.
+M0313,lg_urgent_meeting,legitimate,Reminder: your college project review is tomorrow at 2 PM.
+M0402,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Thursday from 2 PM. Please save your work.
+M0442,lg_college_notice,legitimate,Lab session on Friday at 10 AM in Lab 3. Bring your record book.
+M0044,ph_lottery,phishing,You won a lottery draw. Send your bank details to receive a free vacation. Claim it now!
+M0295,lg_password_reset,legitimate,"You requested a password reset for your campus portal. If this was you, use the link:  If not, ignore this message."
+M0193,ph_tech_support,phishing,Security alert: your email will be closed. Click here to keep it active hxxp://192[.]0[.]2[.]49/login
+M0028,ph_bank_block,phishing,Final warning: account blocked within 12 hours. Update your bank details here hxxp://secure-login[.]example[.]test/verify
+M0041,ph_lottery,phishing,You won a lottery draw. Send your bank details to receive a free vacation. Claim it now! hxxp://secure-login[.]example[.]test/verify
+M0386,lg_bank_official,legitimate,Northbank: your statement is ready. View it in the official mobile app.
+M0317,lg_urgent_meeting,legitimate,Your meeting is scheduled for Monday at 9 AM.
+M0445,lg_college_notice,legitimate,Lab session on Friday at 4 PM in Seminar Hall. Bring your record book.
+M0026,ph_bank_block,phishing,Your Riverstone Bank account will be blocked. Verify your details immediately!
+M0280,ph_social_login,phishing,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]64/login
+M0362,lg_delivery_update,legitimate,CityCourier: your package will arrive on Friday. Track on the official website.
+M0038,ph_lottery,phishing,Congratulations! You have won a free vacation. Pay a small fee of Rs. 25 to claim your reward.
+M0274,ph_social_login,phishing,Someone tried to log in to your social account. Secure it now: hxxp://account-update[.]example[.]test/confirm
+M0321,lg_urgent_meeting,legitimate,Your meeting is scheduled for Friday at 4 PM.
+M0263,ph_social_login,phishing,Your account will be deleted for policy violation. Appeal immediately: hxxp://account-update[.]example[.]test/confirm
+M0422,lg_hr_policy,legitimate,The updated leave policy is available here: hxxps://portal[.]example[.]test/home Please read it before next month.
+M0093,ph_delivery_fee,phishing,ExpressLine: your parcel is on hold. Pay customs fee Rs. 150 to release it: hxxp://account-update[.]example[.]test/confirm
+M0303,lg_urgent_meeting,legitimate,Reminder: your college project review is tomorrow at 10 AM.
+M0088,ph_delivery_fee,phishing,CityCourier: your parcel is on hold. Pay customs fee Rs. 150 to release it: hxxp://account-update[.]example[.]test/confirm
+M0129,ph_kyc_update,phishing,"Unity Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/Qw7Er"
+M0426,lg_college_notice,legitimate,Exam timetable has been published. Check the notice board or portal
+M0348,lg_delivery_update,legitimate,CityCourier: your package will arrive on Wednesday. Track on the official website.
+M0428,lg_college_notice,legitimate,Exam timetable has been published. Check the notice board or portal hxxps://portal[.]example[.]test/home
+M0137,ph_tax_refund,phishing,"You are eligible for a tax refund of Rs. 50,000. Submit your bank details to receive it. hxxps://portal[.]example[.]test/home"
+M0069,ph_delivery_fee,phishing,SwiftPost: your parcel is on hold. Pay customs fee Rs. 49 to release it: hxxp://account-update[.]example[.]test/confirm
+M0338,lg_delivery_update,legitimate,CityCourier: your package will arrive on Monday. Track on the official website.
+M0167,ph_tax_refund,phishing,You are eligible for a tax refund of a gift voucher. Submit your bank details to receive it. hxxp://account-update[.]example[.]test/confirm
+M0387,lg_bank_official,legitimate,Riverstone Bank reminder: never share your PIN or OTP with anyone.
+M0390,lg_it_maintenance,legitimate,IT notice: please update your laptop software this week. Instructions: hxxps://portal[.]example[.]test/home
+M0382,lg_bank_official,legitimate,"Axis Plain Bank: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP."
+M0447,lg_college_notice,legitimate,Lab session on Thursday at 4 PM in Room 204. Bring your record book.
+M0345,lg_delivery_update,legitimate,SwiftPost: your package will arrive on Tuesday. Track on the official website.
+M0037,ph_lottery,phishing,Winner notice: a laptop is waiting. Reply with your address and processing fee Rs. 25.
+M0210,ph_tech_support,phishing,Warning! Your device is infected. Call support and share your password for removal. hxxp://192[.]0[.]2[.]73/login
+M0384,lg_bank_official,legitimate,Axis Plain Bank reminder: never share your PIN or OTP with anyone.
+M0409,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Monday from 4 PM. Please save your work.
+M0031,ph_bank_block,phishing,Unity Bank notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/Qw7Er
+M0334,lg_urgent_meeting,legitimate,Please join the team meeting on Tuesday at 9 AM. Agenda is in the shared folder.
+M0024,ph_bank_block,phishing,Metro Savings notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/x9Yz3
+M0347,lg_delivery_update,legitimate,ExpressLine: your package will arrive on Thursday. Track on the official website.
+M0431,lg_college_notice,legitimate,Lab session on Monday at 2 PM in Seminar Hall. Bring your record book.
+M0064,ph_lottery,phishing,Winner notice: a new smartphone is waiting. Reply with your address and processing fee Rs. 25.
+M0365,lg_delivery_update,legitimate,ExpressLine: your package will arrive on Monday. Track on the official website.
+M0456,lg_college_notice,legitimate,Lab session on Friday at 11:30 AM in Seminar Hall. Bring your record book.
+M0439,lg_college_notice,legitimate,Lab session on Wednesday at 4 PM in Room 204. Bring your record book.
+M0004,ph_bank_block,phishing,Your Axis Plain Bank account will be blocked. Verify your details immediately! hxxp://account-update[.]example[.]test/confirm
+M0013,ph_bank_block,phishing,Final warning: account blocked within 24 hours. Update your bank details here
+M0227,ph_invoice,phishing,Payment failed for your subscription. Update payment method now: hxxp://account-update[.]example[.]test/confirm
+M0457,lg_college_notice,legitimate,Lab session on Tuesday at 9 AM in Seminar Hall. Bring your record book.
+M0015,ph_bank_block,phishing,Urgent! Your Northbank card is locked. Click here to confirm your password:
+M0012,ph_bank_block,phishing,Your Unity Bank account will be blocked. Verify your details immediately! hxxps://sho[.]rt/a1B2c
+M0305,lg_urgent_meeting,legitimate,Your meeting is scheduled for Thursday at 9 AM.
+M0023,ph_bank_block,phishing,Your Metro Savings account will be blocked. Verify your details immediately!
+M0404,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Wednesday from 9 AM. Please save your work.
+M0117,ph_kyc_update,phishing,"Metro Savings: PAN update required, click here to verify your account. hxxps://sho[.]rt/Qw7Er"
+M0141,ph_tax_refund,phishing,You are eligible for a tax refund of a laptop. Submit your bank details to receive it. hxxp://secure-login[.]example[.]test/verify
+M0415,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Thursday from 9 AM. Please save your work.
+M0223,ph_ceo_payroll_spoof,phishing,HR: update your payroll bank details today to receive salary. Confirm here hxxp://account-update[.]example[.]test/confirm
+M0105,ph_kyc_update,phishing,"Dear customer, complete KYC verification today or services stop. Share OTP to continue. hxxp://account-update[.]example[.]test/confirm"
+M0318,lg_urgent_meeting,legitimate,Please join the team meeting on Monday at 9 AM. Agenda is in the shared folder.
+M0171,ph_job_offer,phishing,"Earn Rs. 5,000 daily from home. Limited time, send money for kit and begin now."
+M0080,ph_delivery_fee,phishing,"ExpressLine alert: address incomplete, confirm your card details to ship. hxxp://account-update[.]example[.]test/confirm"
+M0458,lg_college_notice,legitimate,Lab session on Thursday at 11:30 AM in Seminar Hall. Bring your record book.
+M0319,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Tuesday at 9 AM in Lab 3.
+M0134,ph_kyc_update,phishing,"Riverstone Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/x9Yz3"
+M0451,lg_college_notice,legitimate,Lab session on Monday at 10 AM in Conference Room B. Bring your record book.
+M0116,ph_kyc_update,phishing,"Axis Plain Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/Qw7Er"
+M0427,lg_college_notice,legitimate,Lab session on Wednesday at 11:30 AM in Seminar Hall. Bring your record book.
+M0444,lg_college_notice,legitimate,Lab session on Wednesday at 4 PM in Conference Room B. Bring your record book.
+M0156,ph_tax_refund,phishing,You are eligible for a tax refund of a new smartphone. Submit your bank details to receive it. hxxps://portal[.]example[.]test/home
+M0159,ph_tax_refund,phishing,You are eligible for a tax refund of a free vacation. Submit your bank details to receive it. hxxps://portal[.]example[.]test/home
+M0395,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Tuesday from 2 PM. Please save your work.
+M0091,ph_delivery_fee,phishing,"QuickParcel alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/x9Yz3"
+M0453,lg_college_notice,legitimate,Lab session on Wednesday at 9 AM in Lab 3. Bring your record book.
+M0429,lg_college_notice,legitimate,Lab session on Monday at 9 AM in Seminar Hall. Bring your record book.
+M0017,ph_bank_block,phishing,Riverstone Bank notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/a1B2c
+M0010,ph_bank_block,phishing,Urgent! Your Metro Savings card is locked. Click here to confirm your password:
+M0378,lg_bank_official,legitimate,"Unity Bank: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP."
+M0357,lg_delivery_update,legitimate,SwiftPost: your package will arrive on Monday. Track on the official website.
+M0042,ph_lottery,phishing,You won a lottery draw. Send your bank details to receive a laptop. Claim it now! hxxp://account-update[.]example[.]test/confirm
+M0061,ph_lottery,phishing,You won a lottery draw. Send your bank details to receive a new smartphone. Claim it now! hxxps://sho[.]rt/Qw7Er
+M0326,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Thursday at 9 AM in Room 204.
+M0405,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Monday from 11:30 AM. Please save your work.
+M0018,ph_bank_block,phishing,Your Metro Savings account will be blocked. Verify your details immediately! hxxp://secure-login[.]example[.]test/verify
+M0358,lg_delivery_update,legitimate,QuickParcel: your package will arrive on Friday. Track on the official website.
+M0377,lg_bank_official,legitimate,Metro Savings: your statement is ready. View it in the official mobile app.
+M0299,lg_payroll_notice,legitimate,Reminder: submit your tax declaration by Friday through the HR portal hxxps://hr[.]example[.]test/policy
+M0446,lg_college_notice,legitimate,Lab session on Thursday at 9 AM in Room 204. Bring your record book.
+M0435,lg_college_notice,legitimate,Lab session on Monday at 10 AM in Room 204. Bring your record book.
+M0376,lg_bank_official,legitimate,"Riverstone Bank: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP."
+M0423,lg_hr_policy,legitimate,Office will remain closed on Wednesday for a public holiday.
+M0040,ph_lottery,phishing,Winner notice: a free vacation is waiting. Reply with your address and processing fee Rs. 150.
+M0380,lg_bank_official,legitimate,Northbank reminder: never share your PIN or OTP with anyone.
+M0119,ph_kyc_update,phishing,"Northbank: PAN update required, click here to verify your account. hxxp://secure-login[.]example[.]test/verify"
+M0440,lg_college_notice,legitimate,Lab session on Tuesday at 4 PM in Room 204. Bring your record book.
+M0096,ph_delivery_fee,phishing,"SwiftPost alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/Qw7Er"
+M0045,ph_lottery,phishing,"Congratulations! You have won Rs. 50,000. Pay a small fee of Rs. 49 to claim your reward. hxxps://sho[.]rt/x9Yz3"
+M0320,lg_urgent_meeting,legitimate,Please join the team meeting on Wednesday at 10 AM. Agenda is in the shared folder.
+M0100,ph_delivery_fee,phishing,"CityCourier alert: address incomplete, confirm your card details to ship. hxxp://secure-login[.]example[.]test/verify"
+M0005,ph_bank_block,phishing,Urgent! Your Riverstone Bank card is locked. Click here to confirm your password: hxxp://account-update[.]example[.]test/confirm
+M0034,ph_bank_block,phishing,Your Northbank account will be blocked. Verify your details immediately! hxxps://sho[.]rt/Qw7Er
+M0027,ph_bank_block,phishing,Urgent! Your Axis Plain Bank card is locked. Click here to confirm your password:
+M0434,lg_college_notice,legitimate,Lab session on Friday at 11:30 AM in Room 204. Bring your record book.
+M0407,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Monday from 9 AM. Please save your work.
+M0450,lg_college_notice,legitimate,Lab session on Tuesday at 4 PM in Conference Room B. Bring your record book.
+M0331,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Monday at 9 AM in Seminar Hall.
+M0322,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Friday at 10 AM in Room 204.
+M0406,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Thursday from 11:30 AM. Please save your work.
+M0309,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Thursday at 4 PM in Seminar Hall.
+M0330,lg_urgent_meeting,legitimate,Please join the team meeting on Friday at 4 PM. Agenda is in the shared folder.
+M0343,lg_delivery_update,legitimate,ExpressLine: your package will arrive on Friday. Track on the official website.
+M0455,lg_college_notice,legitimate,Lab session on Wednesday at 4 PM in Seminar Hall. Bring your record book.
+M0448,lg_college_notice,legitimate,Lab session on Tuesday at 10 AM in Conference Room B. Bring your record book.
+M0220,ph_ceo_payroll_spoof,phishing,HR: update your payroll bank details today to receive salary. Confirm here
+M0176,ph_job_offer,phishing,"Congratulations, you are selected for work from home. Pay Rs. 150 registration fee to start."
+M0411,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Wednesday from 11:30 AM. Please save your work.
+M0425,lg_college_notice,legitimate,Your electricity bill is due next week. Please check your official account.
+M0310,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Friday at 2 PM in Room 204.
+M0301,lg_payroll_notice,legitimate,Reminder: submit your tax declaration by Friday through the HR portal
+M0292,lg_password_reset,legitimate,"Your password was changed successfully. If you did not do this, contact the IT helpdesk at the front office."
+M0001,ph_bank_block,phishing,Your Northbank account will be blocked. Verify your details immediately!
+M0403,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Tuesday from 9 AM. Please save your work.
+M0394,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Friday from 2 PM. Please save your work.
+M0437,lg_college_notice,legitimate,Lab session on Friday at 2 PM in Conference Room B. Bring your record book.
+M0324,lg_urgent_meeting,legitimate,Please join the team meeting on Monday at 11:30 AM. Agenda is in the shared folder.
+M0084,ph_delivery_fee,phishing,QuickParcel: your parcel is on hold. Pay customs fee Rs. 150 to release it: hxxp://account-update[.]example[.]test/confirm
+M0053,ph_lottery,phishing,Congratulations! You have won a laptop. Pay a small fee of Rs. 150 to claim your reward.
+M0360,lg_delivery_update,legitimate,CityCourier: your package will arrive on Thursday. Track on the official website.
+M0410,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Friday from 10 AM. Please save your work.
+M0391,lg_it_maintenance,legitimate,IT notice: please update your laptop software this week. Instructions:
+M0068,ph_lottery,phishing,"Winner notice: Rs. 50,000 is waiting. Reply with your address and processing fee Rs. 150."
+M0293,lg_password_reset,legitimate,Password expiry reminder: your password expires in 7 days. Change it from the official portal when convenient.
+M0421,lg_hr_policy,legitimate,Office will remain closed on Friday for a public holiday.
+M0346,lg_delivery_update,legitimate,QuickParcel: your package will arrive on Thursday. Track on the official website.
+M0328,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Tuesday at 9 AM in Seminar Hall.
+M0298,lg_payroll_notice,legitimate,Payroll calendar: salaries will be credited on the last working day. Contact HR for queries.
+M0379,lg_bank_official,legitimate,"Northbank: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP."
+M0452,lg_college_notice,legitimate,Lab session on Friday at 9 AM in Conference Room B. Bring your record book.
+M0370,lg_delivery_update,legitimate,QuickParcel: your package will arrive on Tuesday. Track on the official website.
+M0383,lg_bank_official,legitimate,Metro Savings reminder: never share your PIN or OTP with anyone.
+M0374,lg_bank_official,legitimate,"Metro Savings: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP."
+M0349,lg_delivery_update,legitimate,SwiftPost: your package will arrive on Wednesday. Track on the official website.
+M0441,lg_college_notice,legitimate,Lab session on Tuesday at 10 AM in Room 204. Bring your record book.
+M0058,ph_lottery,phishing,Congratulations! You have won a new smartphone. Pay a small fee of Rs. 99 to claim your reward.
+M0297,lg_payroll_notice,legitimate,Your payslip for this month is available on the HR portal. No action is needed.
+M0430,lg_college_notice,legitimate,Lab session on Monday at 2 PM in Conference Room B. Bring your record book.
+M0009,ph_bank_block,phishing,Riverstone Bank notice: unusual login detected. Confirm your identity now or the account is suspended.
+M0029,ph_bank_block,phishing,Urgent! Your Riverstone Bank card is locked. Click here to confirm your password:
+M0006,ph_bank_block,phishing,Urgent! Your Axis Plain Bank card is locked. Click here to confirm your password: hxxps://sho[.]rt/x9Yz3
+M0056,ph_lottery,phishing,"You won a lottery draw. Send your bank details to receive Rs. 50,000. Claim it now! hxxps://sho[.]rt/a1B2c"
+M0048,ph_lottery,phishing,Winner notice: a gift voucher is waiting. Reply with your address and processing fee Rs. 99.
+M0221,ph_ceo_payroll_spoof,phishing,"Please change my salary account to the new one attached. Do not call, urgent."
+M0014,ph_bank_block,phishing,Northbank notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/x9Yz3
+M0067,ph_lottery,phishing,Congratulations! You have won a gift voucher. Pay a small fee of Rs. 150 to claim your reward.
+M0333,lg_urgent_meeting,legitimate,Your meeting is scheduled for Tuesday at 11:30 AM.
+M0219,ph_ceo_payroll_spoof,phishing,"I am in a meeting, need gift cards urgently. Send money now and I will refund later."
+M0400,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Tuesday from 11:30 AM. Please save your work.
+M0327,lg_urgent_meeting,legitimate,Your meeting is scheduled for Friday at 11:30 AM.
+M0420,lg_hr_policy,legitimate,Office will remain closed on Thursday for a public holiday.
+M0436,lg_college_notice,legitimate,Lab session on Monday at 4 PM in Lab 3. Bring your record book.
+M0375,lg_bank_official,legitimate,Unity Bank reminder: never share your PIN or OTP with anyone.
+M0353,lg_delivery_update,legitimate,QuickParcel: your package will arrive on Wednesday. Track on the official website.
+M0336,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Tuesday at 4 PM in Seminar Hall.
+M0381,lg_bank_official,legitimate,Unity Bank: your statement is ready. View it in the official mobile app.
+M0312,lg_urgent_meeting,legitimate,Reminder: your college project review is tomorrow at 11:30 AM.
+M0424,lg_college_notice,legitimate,Lab session on Wednesday at 11:30 AM in Conference Room B. Bring your record book.
+M0308,lg_urgent_meeting,legitimate,Please join the team meeting on Tuesday at 2 PM. Agenda is in the shared folder.
+M0172,ph_job_offer,phishing,Job offer confirmed. Send your ID copy and bank details to HR to receive joining letter.
+M0315,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Tuesday at 2 PM in Room 204.
+M0020,ph_bank_block,phishing,Urgent! Your Unity Bank card is locked. Click here to confirm your password: hxxps://sho[.]rt/a1B2c
+M0389,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Wednesday from 4 PM. Please save your work.
+M0306,lg_urgent_meeting,legitimate,Your meeting is scheduled for Tuesday at 2 PM.
+M0043,ph_lottery,phishing,You won a lottery draw. Send your bank details to receive a new smartphone. Claim it now!
+M0007,ph_bank_block,phishing,Urgent! Your Unity Bank card is locked. Click here to confirm your password:
+M0388,lg_bank_official,legitimate,Riverstone Bank: your statement is ready. View it in the official mobile app.
+M0417,lg_hr_policy,legitimate,Office will remain closed on Tuesday for a public holiday.
+M0062,ph_lottery,phishing,Congratulations! You have won a new smartphone. Pay a small fee of Rs. 49 to claim your reward. hxxp://secure-login[.]example[.]test/verify
+M0355,lg_delivery_update,legitimate,CityCourier: your package will arrive on Tuesday. Track on the official website.
+M0459,lg_college_notice,legitimate,Lab session on Thursday at 4 PM in Lab 3. Bring your record book.
+M0036,ph_lottery,phishing,"Congratulations! You have won Rs. 50,000. Pay a small fee of Rs. 25 to claim your reward."
+M0307,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Monday at 2 PM in Room 204.
+M0323,lg_urgent_meeting,legitimate,Urgent: the project review is moved to Friday at 10 AM in Lab 3.
+M0304,lg_urgent_meeting,legitimate,Your meeting is scheduled for Wednesday at 2 PM.
+M0342,lg_delivery_update,legitimate,Your package delivery is delayed. Check the official delivery website.
+M0399,lg_it_maintenance,legitimate,The campus network will be down for maintenance on Friday from 11:30 AM. Please save your work.
+M0325,lg_urgent_meeting,legitimate,Please join the team meeting on Friday at 11:30 AM. Agenda is in the shared folder.
+M0063,ph_lottery,phishing,Congratulations! You have won a gift voucher. Pay a small fee of Rs. 49 to claim your reward. hxxp://account-update[.]example[.]test/confirm

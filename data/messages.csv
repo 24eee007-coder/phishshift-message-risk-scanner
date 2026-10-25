@@ -1,0 +1,472 @@
+message_id,channel,subject_or_title,body_text,sanitized_url_features,sender_domain_type,label,campaign_group,collected_date
+M0461,email,Invoice overdue,"YOUR ORDER #3543 COULD NOT BE PROCESSED, CONFIRM CARD DETAILS WITHIN 12 HOURS. HXXPS://SHO[.]RT/A1B2C",shortener,unknown,phishing,ph_invoice,2026-03-02
+M0252,email,Invoice overdue,Invoice #8800 is overdue. Update payment here to avoid penalty: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_invoice,2026-05-02
+M0208,email,Security warning,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]35/login,ip_host,unknown,phishing,ph_tech_support,2026-03-25
+M0369,sms,Delivery update,Order #8994 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-02-24
+M0185,email,Security warning,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]3/login,ip_host,unknown,phishing,ph_tech_support,2026-08-15
+M0385,sms,Bank notification,Axis Plain Bank: your statement is ready. View it in the official mobile app.,none,corporate,legitimate,lg_bank_official,2026-01-31
+M0152,email,Refund notification,Refund pending: confirm your identity and account number within 12 hours. hxxps://hr[.]example[.]test/policy,defanged_https,lookalike,phishing,ph_tax_refund,2026-02-27
+M0066,email,You are a winner!,You won a lottery draw. Send your bank details to receive a gift voucher. Claim it now! hxxps://sho[.]rt/Qw7Er,shortener,free_mail,phishing,ph_lottery,2026-03-02
+M0351,sms,Delivery update,Order #3684 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-02-24
+M0194,email,Security warning,Your cloud storage is full and will be deleted in 12 hours. Verify your account here hxxp://192[.]0[.]2[.]88/login,ip_host,unknown,phishing,ph_tech_support,2026-09-07
+M0454,email,Lab schedule,Lab session on Wednesday at 2 PM in Lab 3. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-02-26
+M0206,email,Virus detected,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]51/login,ip_host,unknown,phishing,ph_tech_support,2026-06-20
+M0294,email,Password reset request,"You requested a password reset for your campus portal. If this was you, use the link: hxxps://hr[.]example[.]test/policy If not, ignore this message.",defanged_https,corporate,legitimate,lg_password_reset,2026-02-24
+M0174,email,Work from home,"Congratulations, you are selected for work from home. Pay Rs. 25 registration fee to start. hxxps://hr[.]example[.]test/policy",defanged_https,free_mail,phishing,ph_job_offer,2026-07-06
+M0101,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 25 now or the package returns. hxxps://sho[.]rt/Qw7Er,shortener,unknown,phishing,ph_delivery_fee,2026-03-05
+M0108,sms,KYC pending,Your KYC is expired. Update immediately to avoid account suspended. hxxps://sho[.]rt/x9Yz3,shortener,lookalike,phishing,ph_kyc_update,2026-02-06
+M0418,email,Policy update,Office will remain closed on Monday for a public holiday.,defanged_https,corporate,legitimate,lg_hr_policy,2026-05-30
+M0248,email,Payment failed,Invoice #6748 is overdue. Update payment here to avoid penalty: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_invoice,2026-01-15
+M0242,email,Payment failed,"Your order #7151 could not be processed, confirm card details within 2 hours. hxxp://account-update[.]example[.]test/confirm",defanged_http,unknown,phishing,ph_invoice,2026-02-28
+M0203,email,Virus detected,Your cloud storage is full and will be deleted in 12 hours. Verify your account here hxxp://192[.]0[.]2[.]96/login,ip_host,unknown,phishing,ph_tech_support,2026-06-03
+M0313,email,Reminder: review,Reminder: your college project review is tomorrow at 2 PM.,none,corporate,legitimate,lg_urgent_meeting,2026-04-21
+M0402,email,Scheduled maintenance,The campus network will be down for maintenance on Thursday from 2 PM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-05-03
+M0442,email,Exam timetable,Lab session on Friday at 10 AM in Lab 3. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-03-02
+M0044,email,You are a winner!,You won a lottery draw. Send your bank details to receive a free vacation. Claim it now!,none,free_mail,phishing,ph_lottery,2026-07-04
+M0295,email,Password reset request,"You requested a password reset for your campus portal. If this was you, use the link:  If not, ignore this message.",none,corporate,legitimate,lg_password_reset,2026-07-07
+M0255,email,Invoice overdue,Invoice #7206 is overdue. Update payment here to avoid penalty: hxxps://sho[.]rt/Qw7Er,shortener,unknown,phishing,ph_invoice,2026-07-22
+M0193,email,Virus detected,Security alert: your email will be closed. Click here to keep it active hxxp://192[.]0[.]2[.]49/login,ip_host,unknown,phishing,ph_tech_support,2026-07-14
+M0158,email,Tax refund available,Refund pending: confirm your identity and account number within 2 hours. hxxps://hr[.]example[.]test/policy,defanged_https,lookalike,phishing,ph_tax_refund,2026-03-29
+M0234,email,Invoice overdue,Invoice #9243 is overdue. Update payment here to avoid penalty: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_invoice,2026-05-01
+M0028,sms,Account alert,Final warning: account blocked within 12 hours. Update your bank details here hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_bank_block,2026-07-21
+M0041,email,You are a winner!,You won a lottery draw. Send your bank details to receive a free vacation. Claim it now! hxxp://secure-login[.]example[.]test/verify,defanged_http,free_mail,phishing,ph_lottery,2026-04-01
+M0386,sms,Bank notification,Northbank: your statement is ready. View it in the official mobile app.,none,corporate,legitimate,lg_bank_official,2026-02-11
+M0317,email,Reminder: review,Your meeting is scheduled for Monday at 9 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-06-27
+M0233,email,Invoice overdue,"Your order #8961 could not be processed, confirm card details within 2 hours. hxxp://secure-login[.]example[.]test/verify",defanged_http,unknown,phishing,ph_invoice,2026-08-18
+M0030,sms,Account alert,Final warning: account blocked within 6 hours. Update your bank details here hxxps://sho[.]rt/Qw7Er,shortener,lookalike,phishing,ph_bank_block,2026-01-20
+M0445,email,Exam timetable,Lab session on Friday at 4 PM in Seminar Hall. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-05-22
+M0026,sms,Account alert,Your Riverstone Bank account will be blocked. Verify your details immediately!,none,lookalike,phishing,ph_bank_block,2026-01-18
+M0280,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]64/login,ip_host,lookalike,phishing,ph_social_login,2026-08-22
+M0362,sms,Delivery update,CityCourier: your package will arrive on Friday. Track on the official website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-07-08
+M0038,email,Claim your prize,Congratulations! You have won a free vacation. Pay a small fee of Rs. 25 to claim your reward.,none,free_mail,phishing,ph_lottery,2026-06-19
+M0274,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_social_login,2026-06-21
+M0289,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]67/login,ip_host,lookalike,phishing,ph_social_login,2026-01-20
+M0321,email,Urgent: meeting moved,Your meeting is scheduled for Friday at 4 PM.,none,corporate,legitimate,lg_urgent_meeting,2026-08-24
+M0263,sms,Login attempt,Your account will be deleted for policy violation. Appeal immediately: hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_social_login,2026-08-22
+M0265,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_social_login,2026-02-01
+M0422,email,Policy update,The updated leave policy is available here: hxxps://portal[.]example[.]test/home Please read it before next month.,defanged_https,corporate,legitimate,lg_hr_policy,2026-08-16
+M0212,email,Security warning,Security alert: your email will be closed. Click here to keep it active hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_tech_support,2026-04-30
+M0093,sms,Parcel on hold,ExpressLine: your parcel is on hold. Pay customs fee Rs. 150 to release it: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_delivery_fee,2026-05-09
+M0303,email,Reminder: review,Reminder: your college project review is tomorrow at 10 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-09-06
+M0261,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxps://sho[.]rt/Qw7Er,shortener,lookalike,phishing,ph_social_login,2026-05-09
+M0088,sms,Parcel on hold,CityCourier: your parcel is on hold. Pay customs fee Rs. 150 to release it: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_delivery_fee,2026-06-04
+M0089,sms,Parcel on hold,ExpressLine: your parcel is on hold. Pay customs fee Rs. 25 to release it: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_delivery_fee,2026-05-15
+M0129,sms,KYC pending,"Unity Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/Qw7Er",shortener,lookalike,phishing,ph_kyc_update,2026-04-07
+M0426,email,Exam timetable,Exam timetable has been published. Check the notice board or portal,none,corporate,legitimate,lg_college_notice,2026-08-27
+M0021,sms,Account alert,Final warning: account blocked within 2 hours. Update your bank details here hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_bank_block,2026-03-11
+M0348,sms,Delivery update,CityCourier: your package will arrive on Wednesday. Track on the official website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-02-01
+M0428,email,Exam timetable,Exam timetable has been published. Check the notice board or portal hxxps://portal[.]example[.]test/home,defanged_https,corporate,legitimate,lg_college_notice,2026-02-05
+M0137,email,Tax refund available,"You are eligible for a tax refund of Rs. 50,000. Submit your bank details to receive it. hxxps://portal[.]example[.]test/home",defanged_https,lookalike,phishing,ph_tax_refund,2026-02-26
+M0361,sms,Delivery update,Order #2124 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-06-27
+M0271,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://192[.]0[.]2[.]72/login,ip_host,lookalike,phishing,ph_social_login,2026-02-27
+M0069,sms,Parcel on hold,SwiftPost: your parcel is on hold. Pay customs fee Rs. 49 to release it: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_delivery_fee,2026-07-21
+M0095,sms,Parcel on hold,CityCourier: your parcel is on hold. Pay customs fee Rs. 49 to release it: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_delivery_fee,2026-02-25
+M0094,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 150 now or the package returns. hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_delivery_fee,2026-08-03
+M0338,sms,Delivery update,CityCourier: your package will arrive on Monday. Track on the official website.,none,corporate,legitimate,lg_delivery_update,2026-08-19
+M0287,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://192[.]0[.]2[.]27/login,ip_host,lookalike,phishing,ph_social_login,2026-06-22
+M0341,sms,Delivery update,Order #7683 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-02-19
+M0266,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://192[.]0[.]2[.]16/login,ip_host,lookalike,phishing,ph_social_login,2026-07-17
+M0167,email,Refund notification,You are eligible for a tax refund of a gift voucher. Submit your bank details to receive it. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_tax_refund,2026-05-11
+M0387,sms,Bank notification,Riverstone Bank reminder: never share your PIN or OTP with anyone.,none,corporate,legitimate,lg_bank_official,2026-06-18
+M0226,email,Invoice overdue,"Your order #6199 could not be processed, confirm card details within 6 hours. hxxp://account-update[.]example[.]test/confirm",defanged_http,unknown,phishing,ph_invoice,2026-07-03
+M0390,email,Scheduled maintenance,IT notice: please update your laptop software this week. Instructions: hxxps://portal[.]example[.]test/home,defanged_https,corporate,legitimate,lg_it_maintenance,2026-05-14
+M0382,sms,Bank notification,"Axis Plain Bank: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP.",none,corporate,legitimate,lg_bank_official,2026-02-08
+M0447,email,Lab schedule,Lab session on Thursday at 4 PM in Room 204. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-08-15
+M0157,email,Tax refund available,Refund pending: confirm your identity and account number within 24 hours. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_tax_refund,2026-01-16
+M0419,email,Holiday notice,The updated leave policy is available here: hxxps://hr[.]example[.]test/policy Please read it before next month.,defanged_https,corporate,legitimate,lg_hr_policy,2026-05-20
+M0332,email,Urgent: meeting moved,Your meeting is scheduled for Monday at 10 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-02-14
+M0345,sms,Delivery update,SwiftPost: your package will arrive on Tuesday. Track on the official website.,none,corporate,legitimate,lg_delivery_update,2026-03-31
+M0216,email,Security warning,Security alert: your email will be closed. Click here to keep it active hxxp://192[.]0[.]2[.]81/login,ip_host,unknown,phishing,ph_tech_support,2026-01-05
+M0142,email,Tax refund available,Refund pending: confirm your identity and account number within 2 hours. hxxps://portal[.]example[.]test/home,defanged_https,lookalike,phishing,ph_tax_refund,2026-02-04
+M0243,email,Invoice overdue,"Your order #2132 could not be processed, confirm card details within 6 hours. hxxps://sho[.]rt/a1B2c",shortener,unknown,phishing,ph_invoice,2026-04-20
+M0037,email,Claim your prize,Winner notice: a laptop is waiting. Reply with your address and processing fee Rs. 25.,shortener,free_mail,phishing,ph_lottery,2026-04-12
+M0086,sms,Parcel on hold,CityCourier: your parcel is on hold. Pay customs fee Rs. 150 to release it: hxxps://sho[.]rt/Qw7Er,shortener,unknown,phishing,ph_delivery_fee,2026-04-23
+M0470,email,Refund notification,Refund pending: confirm your identity and account number within 6 hours. hxxp://secure-login[.]example[.]test/verify!!,defanged_http,lookalike,phishing,ph_tax_refund,2026-06-18
+M0210,email,Security warning,Warning! Your device is infected. Call support and share your password for removal. hxxp://192[.]0[.]2[.]73/login,ip_host,unknown,phishing,ph_tech_support,2026-02-23
+M0123,sms,KYC pending,Your KYC is expired. Update immediately to avoid account suspended. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_kyc_update,2026-06-22
+M0170,email,Tax refund available,You are eligible for a tax refund of a gift voucher. Submit your bank details to receive it. hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_tax_refund,2026-08-26
+M0230,email,Payment failed,Invoice #4081 is overdue. Update payment here to avoid penalty: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_invoice,2026-02-20
+M0356,sms,Delivery update,Order #3062 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-05-11
+M0148,email,Refund notification,Refund pending: confirm your identity and account number within 24 hours. hxxps://hr[.]example[.]test/policy,defanged_https,lookalike,phishing,ph_tax_refund,2026-05-24
+M0384,sms,Bank notification,Axis Plain Bank reminder: never share your PIN or OTP with anyone.,none,corporate,legitimate,lg_bank_official,2026-03-10
+M0151,email,Tax refund available,Refund pending: confirm your identity and account number within 2 hours. hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_tax_refund,2026-03-12
+M0412,email,Scheduled maintenance,The campus network will be down for maintenance on Thursday from 4 PM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-07-04
+M0188,email,Virus detected,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]94/login,ip_host,unknown,phishing,ph_tech_support,2026-08-04
+M0211,email,Security warning,Your cloud storage is full and will be deleted in 12 hours. Verify your account here hxxp://192[.]0[.]2[.]76/login,ip_host,unknown,phishing,ph_tech_support,2026-08-08
+M0409,email,Scheduled maintenance,The campus network will be down for maintenance on Monday from 4 PM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-03-28
+M0218,email,Virus detected,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]92/login,ip_host,unknown,phishing,ph_tech_support,2026-04-29
+M0460,email,Refund notification,Refund pending: confirm your identity and account number within 24 hours. hxxps://hr[.]example[.]test/policy!!,defanged_https,lookalike,phishing,ph_tax_refund,2026-05-24
+M0178,email,Work from home,"Congratulations, you are selected for work from home. Pay Rs. 99 registration fee to start. hxxps://portal[.]example[.]test/home",defanged_https,free_mail,phishing,ph_job_offer,2026-06-06
+M0031,sms,Account alert,Unity Bank notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/Qw7Er,shortener,lookalike,phishing,ph_bank_block,2026-08-02
+M0339,sms,Delivery update,Order #8366 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-01-22
+M0334,email,Reminder: review,Please join the team meeting on Tuesday at 9 AM. Agenda is in the shared folder.,none,corporate,legitimate,lg_urgent_meeting,2026-07-31
+M0024,sms,Account alert,Metro Savings notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/x9Yz3,shortener,lookalike,phishing,ph_bank_block,2026-03-20
+M0347,sms,Delivery update,ExpressLine: your package will arrive on Thursday. Track on the official website.,none,corporate,legitimate,lg_delivery_update,2026-08-06
+M0253,email,Invoice overdue,Invoice #1901 is overdue. Update payment here to avoid penalty: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_invoice,2026-05-12
+M0431,email,Exam timetable,Lab session on Monday at 2 PM in Seminar Hall. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-01-26
+M0200,email,Virus detected,Security alert: your email will be closed. Click here to keep it active hxxp://192[.]0[.]2[.]53/login,ip_host,unknown,phishing,ph_tech_support,2026-02-20
+M0316,email,Urgent: meeting moved,Your meeting is scheduled for Friday at 2 PM.,none,corporate,legitimate,lg_urgent_meeting,2026-03-24
+M0064,email,Claim your prize,Winner notice: a new smartphone is waiting. Reply with your address and processing fee Rs. 25.,defanged_http,free_mail,phishing,ph_lottery,2026-01-04
+M0365,sms,Delivery update,ExpressLine: your package will arrive on Monday. Track on the official website.,none,corporate,legitimate,lg_delivery_update,2026-08-27
+M0456,email,Lab schedule,Lab session on Friday at 11:30 AM in Seminar Hall. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-04-29
+M0439,email,Exam timetable,Lab session on Wednesday at 4 PM in Room 204. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-06-26
+M0004,sms,Account alert,Your Axis Plain Bank account will be blocked. Verify your details immediately! hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_bank_block,2026-08-10
+M0013,sms,Account alert,Final warning: account blocked within 24 hours. Update your bank details here,none,lookalike,phishing,ph_bank_block,2026-02-27
+M0268,sms,Login attempt,Your account will be deleted for policy violation. Appeal immediately: hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_social_login,2026-03-20
+M0465,sms,Parcel on hold,EXPRESSLINE: YOUR PARCEL IS ON HOLD. PAY CUSTOMS FEE RS. 150 TO RELEASE IT: HXXP://ACCOUNT-UPDATE[.]EXAMPLE[.]TEST/CONFIRM,defanged_http,unknown,phishing,ph_delivery_fee,2026-05-09
+M0270,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]58/login,ip_host,lookalike,phishing,ph_social_login,2026-06-17
+M0224,email,Invoice overdue,"Your order #3543 could not be processed, confirm card details within 12 hours. hxxps://sho[.]rt/a1B2c",shortener,unknown,phishing,ph_invoice,2026-03-02
+M0236,email,Invoice overdue,Invoice #1316 is overdue. Update payment here to avoid penalty: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_invoice,2026-04-09
+M0227,email,Invoice overdue,Payment failed for your subscription. Update payment method now: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_invoice,2026-02-11
+M0215,email,Virus detected,Security alert: your email will be closed. Click here to keep it active hxxp://192[.]0[.]2[.]63/login,ip_host,unknown,phishing,ph_tech_support,2026-07-21
+M0214,email,Virus detected,Warning! Your device is infected. Call support and share your password for removal. hxxp://192[.]0[.]2[.]60/login,ip_host,unknown,phishing,ph_tech_support,2026-08-02
+M0457,email,Exam timetable,Lab session on Tuesday at 9 AM in Seminar Hall. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-08-17
+M0015,sms,Account alert,Urgent! Your Northbank card is locked. Click here to confirm your password:,none,lookalike,phishing,ph_bank_block,2026-04-29
+M0012,sms,Account alert,Your Unity Bank account will be blocked. Verify your details immediately! hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_bank_block,2026-03-09
+M0305,email,Reminder: review,Your meeting is scheduled for Thursday at 9 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-07-04
+M0244,email,Invoice overdue,Invoice #9979 is overdue. Update payment here to avoid penalty: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_invoice,2026-05-16
+M0232,email,Invoice overdue,"Your order #4629 could not be processed, confirm card details within 6 hours. hxxps://sho[.]rt/a1B2c",shortener,unknown,phishing,ph_invoice,2026-03-17
+M0023,sms,Account alert,Your Metro Savings account will be blocked. Verify your details immediately!,none,lookalike,phishing,ph_bank_block,2026-07-08
+M0165,email,Refund notification,Refund pending: confirm your identity and account number within 6 hours. hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_tax_refund,2026-06-18
+M0079,sms,Parcel on hold,ExpressLine: your parcel is on hold. Pay customs fee Rs. 25 to release it: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_delivery_fee,2026-04-24
+M0404,email,Scheduled maintenance,The campus network will be down for maintenance on Wednesday from 9 AM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-04-19
+M0117,sms,KYC pending,"Metro Savings: PAN update required, click here to verify your account. hxxps://sho[.]rt/Qw7Er",shortener,lookalike,phishing,ph_kyc_update,2026-08-07
+M0083,sms,Parcel on hold,CityCourier: your parcel is on hold. Pay customs fee Rs. 150 to release it: hxxps://sho[.]rt/x9Yz3,shortener,unknown,phishing,ph_delivery_fee,2026-02-13
+M0141,email,Refund notification,You are eligible for a tax refund of a laptop. Submit your bank details to receive it. hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_tax_refund,2026-07-27
+M0364,sms,Delivery update,Order #5967 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-06-11
+M0415,email,Scheduled maintenance,The campus network will be down for maintenance on Thursday from 9 AM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-04-09
+M0278,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://192[.]0[.]2[.]2/login,ip_host,lookalike,phishing,ph_social_login,2026-04-27
+M0192,email,Security warning,Security alert: your email will be closed. Click here to keep it active hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_tech_support,2026-08-02
+M0223,email,Payroll update,HR: update your payroll bank details today to receive salary. Confirm here hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_ceo_payroll_spoof,2026-02-06
+M0105,sms,KYC pending,"Dear customer, complete KYC verification today or services stop. Share OTP to continue. hxxp://account-update[.]example[.]test/confirm",defanged_http,lookalike,phishing,ph_kyc_update,2026-03-19
+M0318,email,Urgent: meeting moved,Please join the team meeting on Monday at 9 AM. Agenda is in the shared folder.,none,corporate,legitimate,lg_urgent_meeting,2026-03-14
+M0171,email,Work from home,"Earn Rs. 5,000 daily from home. Limited time, send money for kit and begin now.",none,free_mail,phishing,ph_job_offer,2026-06-06
+M0080,sms,Parcel on hold,"ExpressLine alert: address incomplete, confirm your card details to ship. hxxp://account-update[.]example[.]test/confirm",defanged_http,unknown,phishing,ph_delivery_fee,2026-06-23
+M0458,email,Exam timetable,Lab session on Thursday at 11:30 AM in Seminar Hall. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-05-21
+M0022,sms,Account alert,Metro Savings notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/Qw7Er,shortener,lookalike,phishing,ph_bank_block,2026-01-01
+M0237,email,Payment failed,Payment failed for your subscription. Update payment method now: hxxps://sho[.]rt/Qw7Er,shortener,unknown,phishing,ph_invoice,2026-07-25
+M0229,email,Payment failed,"Your order #2967 could not be processed, confirm card details within 6 hours. hxxps://sho[.]rt/Qw7Er",shortener,unknown,phishing,ph_invoice,2026-07-29
+M0319,email,Urgent: meeting moved,Urgent: the project review is moved to Tuesday at 9 AM in Lab 3.,none,corporate,legitimate,lg_urgent_meeting,2026-03-05
+M0134,sms,KYC pending,"Riverstone Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/x9Yz3",shortener,lookalike,phishing,ph_kyc_update,2026-07-12
+M0113,sms,KYC pending,"Unity Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/a1B2c",shortener,lookalike,phishing,ph_kyc_update,2026-06-26
+M0195,email,Virus detected,Your cloud storage is full and will be deleted in 12 hours. Verify your account here hxxp://192[.]0[.]2[.]94/login,ip_host,unknown,phishing,ph_tech_support,2026-08-29
+M0082,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 150 now or the package returns. hxxps://sho[.]rt/a1B2c,shortener,unknown,phishing,ph_delivery_fee,2026-04-22
+M0201,email,Virus detected,Warning! Your device is infected. Call support and share your password for removal. hxxp://192[.]0[.]2[.]71/login,ip_host,unknown,phishing,ph_tech_support,2026-08-26
+M0451,email,Exam timetable,Lab session on Monday at 10 AM in Conference Room B. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-08-01
+M0132,sms,KYC pending,"Unity Bank: PAN update required, click here to verify your account. hxxp://secure-login[.]example[.]test/verify",defanged_http,lookalike,phishing,ph_kyc_update,2026-04-23
+M0116,sms,KYC pending,"Axis Plain Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/Qw7Er",shortener,lookalike,phishing,ph_kyc_update,2026-06-15
+M0427,email,Lab schedule,Lab session on Wednesday at 11:30 AM in Seminar Hall. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-04-07
+M0187,email,Security warning,Your cloud storage is full and will be deleted in 6 hours. Verify your account here hxxp://192[.]0[.]2[.]89/login,ip_host,unknown,phishing,ph_tech_support,2026-05-16
+M0444,email,Exam timetable,Lab session on Wednesday at 4 PM in Conference Room B. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-05-15
+M0367,sms,Delivery update,Order #7135 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-08-31
+M0052,email,Claim your prize,Winner notice: a laptop is waiting. Reply with your address and processing fee Rs. 150.,none,free_mail,phishing,ph_lottery,2026-03-24
+M0032,sms,Account alert,Your Axis Plain Bank account will be blocked. Verify your details immediately! hxxps://sho[.]rt/x9Yz3,shortener,lookalike,phishing,ph_bank_block,2026-05-05
+M0156,email,Refund notification,You are eligible for a tax refund of a new smartphone. Submit your bank details to receive it. hxxps://portal[.]example[.]test/home,defanged_https,lookalike,phishing,ph_tax_refund,2026-08-18
+M0160,email,Tax refund available,"You are eligible for a tax refund of Rs. 50,000. Submit your bank details to receive it. hxxps://hr[.]example[.]test/policy",defanged_https,lookalike,phishing,ph_tax_refund,2026-07-26
+M0225,email,Payment failed,Payment failed for your subscription. Update payment method now: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_invoice,2026-05-04
+M0097,sms,Parcel on hold,"ExpressLine alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/a1B2c",shortener,unknown,phishing,ph_delivery_fee,2026-07-28
+M0098,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 150 now or the package returns. hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_delivery_fee,2026-04-21
+M0159,email,Refund notification,You are eligible for a tax refund of a free vacation. Submit your bank details to receive it. hxxps://portal[.]example[.]test/home,defanged_https,lookalike,phishing,ph_tax_refund,2026-02-28
+M0259,sms,Login attempt,Your account will be deleted for policy violation. Appeal immediately: hxxps://sho[.]rt/x9Yz3,shortener,lookalike,phishing,ph_social_login,2026-08-23
+M0008,sms,Account alert,Final warning: account blocked within 2 hours. Update your bank details here,none,lookalike,phishing,ph_bank_block,2026-02-09
+M0395,email,Scheduled maintenance,The campus network will be down for maintenance on Tuesday from 2 PM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-09-07
+M0092,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 49 now or the package returns. hxxps://sho[.]rt/Qw7Er,shortener,unknown,phishing,ph_delivery_fee,2026-06-06
+M0272,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_social_login,2026-04-08
+M0011,sms,Account alert,Unity Bank notice: unusual login detected. Confirm your identity now or the account is suspended. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_bank_block,2026-08-13
+M0091,sms,Parcel on hold,"QuickParcel alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/x9Yz3",shortener,unknown,phishing,ph_delivery_fee,2026-02-16
+M0471,sms,Account alert,YOUR RIVERSTONE BANK ACCOUNT WILL BE BLOCKED. VERIFY YOUR DETAILS IMMEDIATELY!,none,lookalike,phishing,ph_bank_block,2026-01-18
+M0269,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_social_login,2026-01-30
+M0453,email,Lab schedule,Lab session on Wednesday at 9 AM in Lab 3. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-07-10
+M0198,email,Security warning,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]79/login,ip_host,unknown,phishing,ph_tech_support,2026-03-02
+M0352,sms,Delivery update,Order #9613 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-03-02
+M0296,email,Your password was changed,"You requested a password reset for your campus portal. If this was you, use the link: hxxps://portal[.]example[.]test/home If not, ignore this message.",defanged_https,corporate,legitimate,lg_password_reset,2026-01-09
+M0235,email,Invoice overdue,Invoice #1923 is overdue. Update payment here to avoid penalty: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_invoice,2026-08-14
+M0429,email,Exam timetable,Lab session on Monday at 9 AM in Seminar Hall. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-04-03
+M0017,sms,Account alert,Riverstone Bank notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_bank_block,2026-03-17
+M0262,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxps://sho[.]rt/x9Yz3,shortener,lookalike,phishing,ph_social_login,2026-03-02
+M0010,sms,Account alert,Urgent! Your Metro Savings card is locked. Click here to confirm your password:,none,lookalike,phishing,ph_bank_block,2026-05-10
+M0378,sms,Bank notification,"Unity Bank: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP.",none,corporate,legitimate,lg_bank_official,2026-02-12
+M0277,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]80/login,ip_host,lookalike,phishing,ph_social_login,2026-08-26
+M0199,email,Virus detected,Your cloud storage is full and will be deleted in 6 hours. Verify your account here hxxp://192[.]0[.]2[.]74/login,ip_host,unknown,phishing,ph_tech_support,2026-05-03
+M0357,sms,Delivery update,SwiftPost: your package will arrive on Monday. Track on the official website.,none,corporate,legitimate,lg_delivery_update,2026-04-30
+M0121,sms,KYC pending,"Riverstone Bank: PAN update required, click here to verify your account. hxxp://secure-login[.]example[.]test/verify",defanged_http,lookalike,phishing,ph_kyc_update,2026-03-18
+M0126,sms,KYC pending,"Dear customer, complete KYC verification today or services stop. Share OTP to continue. hxxps://sho[.]rt/x9Yz3",shortener,lookalike,phishing,ph_kyc_update,2026-05-22
+M0136,sms,KYC pending,"Riverstone Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/Qw7Er",shortener,lookalike,phishing,ph_kyc_update,2026-04-12
+M0042,email,Claim your prize,You won a lottery draw. Send your bank details to receive a laptop. Claim it now! hxxp://account-update[.]example[.]test/confirm,defanged_http,free_mail,phishing,ph_lottery,2026-06-15
+M0061,email,You are a winner!,You won a lottery draw. Send your bank details to receive a new smartphone. Claim it now! hxxps://sho[.]rt/Qw7Er,shortener,free_mail,phishing,ph_lottery,2026-05-16
+M0326,email,Reminder: review,Urgent: the project review is moved to Thursday at 9 AM in Room 204.,none,corporate,legitimate,lg_urgent_meeting,2026-07-25
+M0405,email,Scheduled maintenance,The campus network will be down for maintenance on Monday from 11:30 AM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-06-05
+M0109,sms,KYC pending,"Dear customer, complete KYC verification today or services stop. Share OTP to continue. hxxps://sho[.]rt/Qw7Er",shortener,lookalike,phishing,ph_kyc_update,2026-01-13
+M0018,sms,Account alert,Your Metro Savings account will be blocked. Verify your details immediately! hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_bank_block,2026-08-06
+M0358,sms,Delivery update,QuickParcel: your package will arrive on Friday. Track on the official website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-06-17
+M0377,sms,Bank notification,Metro Savings: your statement is ready. View it in the official mobile app.,none,corporate,legitimate,lg_bank_official,2026-03-19
+M0072,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 150 now or the package returns. hxxps://sho[.]rt/Qw7Er,shortener,unknown,phishing,ph_delivery_fee,2026-08-31
+M0299,email,Payslip available,Reminder: submit your tax declaration by Friday through the HR portal hxxps://hr[.]example[.]test/policy,defanged_https,corporate,legitimate,lg_payroll_notice,2026-06-28
+M0446,email,Exam timetable,Lab session on Thursday at 9 AM in Room 204. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-06-25
+M0435,email,Lab schedule,Lab session on Monday at 10 AM in Room 204. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-03-23
+M0376,sms,Bank notification,"Riverstone Bank: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP.",none,corporate,legitimate,lg_bank_official,2026-04-08
+M0423,email,Policy update,Office will remain closed on Wednesday for a public holiday.,defanged_https,corporate,legitimate,lg_hr_policy,2026-08-13
+M0135,sms,KYC pending,"Unity Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/x9Yz3",shortener,lookalike,phishing,ph_kyc_update,2026-08-04
+M0039,email,Claim your prize,Winner notice: a new smartphone is waiting. Reply with your address and processing fee Rs. 150.,defanged_http,free_mail,phishing,ph_lottery,2026-02-15
+M0077,sms,Parcel on hold,"ExpressLine alert: address incomplete, confirm your card details to ship. hxxp://secure-login[.]example[.]test/verify",defanged_http,unknown,phishing,ph_delivery_fee,2026-04-01
+M0290,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]91/login,ip_host,lookalike,phishing,ph_social_login,2026-08-15
+M0040,email,You are a winner!,Winner notice: a free vacation is waiting. Reply with your address and processing fee Rs. 150.,none,free_mail,phishing,ph_lottery,2026-03-13
+M0380,sms,Bank notification,Northbank reminder: never share your PIN or OTP with anyone.,none,corporate,legitimate,lg_bank_official,2026-01-25
+M0114,sms,KYC pending,"Axis Plain Bank: PAN update required, click here to verify your account. hxxp://account-update[.]example[.]test/confirm",defanged_http,lookalike,phishing,ph_kyc_update,2026-03-22
+M0462,email,Lab schedule,LAB SESSION ON WEDNESDAY AT 2 PM IN LAB 3. BRING YOUR RECORD BOOK.,defanged_https,corporate,legitimate,lg_college_notice,2026-02-26
+M0119,sms,KYC pending,"Northbank: PAN update required, click here to verify your account. hxxp://secure-login[.]example[.]test/verify",defanged_http,lookalike,phishing,ph_kyc_update,2026-07-13
+M0440,email,Exam timetable,Lab session on Tuesday at 4 PM in Room 204. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-05-27
+M0285,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://192[.]0[.]2[.]85/login,ip_host,lookalike,phishing,ph_social_login,2026-01-21
+M0065,email,You are a winner!,You won a lottery draw. Send your bank details to receive a laptop. Claim it now! hxxp://secure-login[.]example[.]test/verify,defanged_http,free_mail,phishing,ph_lottery,2026-06-15
+M0096,sms,Parcel on hold,"SwiftPost alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/Qw7Er",shortener,unknown,phishing,ph_delivery_fee,2026-07-27
+M0291,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_social_login,2026-04-19
+M0045,email,Claim your prize,"Congratulations! You have won Rs. 50,000. Pay a small fee of Rs. 49 to claim your reward. hxxps://sho[.]rt/x9Yz3",shortener,free_mail,phishing,ph_lottery,2026-02-28
+M0154,email,Tax refund available,Refund pending: confirm your identity and account number within 24 hours. hxxps://portal[.]example[.]test/home,defanged_https,lookalike,phishing,ph_tax_refund,2026-06-29
+M0087,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 99 now or the package returns. hxxps://sho[.]rt/x9Yz3,shortener,unknown,phishing,ph_delivery_fee,2026-01-15
+M0104,sms,KYC pending,"Unity Bank: PAN update required, click here to verify your account. hxxp://account-update[.]example[.]test/confirm",defanged_http,lookalike,phishing,ph_kyc_update,2026-07-25
+M0180,email,Job offer - immediate joining,"Congratulations, you are selected for work from home. Pay Rs. 49 registration fee to start. hxxps://hr[.]example[.]test/policy",defanged_https,free_mail,phishing,ph_job_offer,2026-04-08
+M0320,email,Urgent: meeting moved,Please join the team meeting on Wednesday at 10 AM. Agenda is in the shared folder.,none,corporate,legitimate,lg_urgent_meeting,2026-03-18
+M0100,sms,Parcel on hold,"CityCourier alert: address incomplete, confirm your card details to ship. hxxp://secure-login[.]example[.]test/verify",defanged_http,unknown,phishing,ph_delivery_fee,2026-09-01
+M0140,email,Tax refund available,Refund pending: confirm your identity and account number within 2 hours. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_tax_refund,2026-04-23
+M0005,sms,Account alert,Urgent! Your Riverstone Bank card is locked. Click here to confirm your password: hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_bank_block,2026-02-11
+M0034,sms,Account alert,Your Northbank account will be blocked. Verify your details immediately! hxxps://sho[.]rt/Qw7Er,shortener,lookalike,phishing,ph_bank_block,2026-04-27
+M0027,sms,Account alert,Urgent! Your Axis Plain Bank card is locked. Click here to confirm your password:,none,lookalike,phishing,ph_bank_block,2026-05-22
+M0434,email,Lab schedule,Lab session on Friday at 11:30 AM in Room 204. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-08-21
+M0115,sms,KYC pending,"Dear customer, complete KYC verification today or services stop. Share OTP to continue. hxxps://sho[.]rt/a1B2c",shortener,lookalike,phishing,ph_kyc_update,2026-08-18
+M0407,email,Scheduled maintenance,The campus network will be down for maintenance on Monday from 9 AM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-06-27
+M0450,email,Exam timetable,Lab session on Tuesday at 4 PM in Conference Room B. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-03-28
+M0331,email,Reminder: review,Urgent: the project review is moved to Monday at 9 AM in Seminar Hall.,none,corporate,legitimate,lg_urgent_meeting,2026-06-13
+M0147,email,Tax refund available,You are eligible for a tax refund of a new smartphone. Submit your bank details to receive it. hxxps://hr[.]example[.]test/policy,defanged_https,lookalike,phishing,ph_tax_refund,2026-02-09
+M0363,sms,Delivery update,Order #8460 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-06-19
+M0055,email,Claim your prize,You won a lottery draw. Send your bank details to receive a gift voucher. Claim it now! hxxp://secure-login[.]example[.]test/verify,defanged_http,free_mail,phishing,ph_lottery,2026-01-24
+M0197,email,Security warning,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]68/login,ip_host,unknown,phishing,ph_tech_support,2026-02-27
+M0107,sms,KYC pending,"Northbank: PAN update required, click here to verify your account. hxxps://sho[.]rt/Qw7Er",shortener,lookalike,phishing,ph_kyc_update,2026-06-26
+M0257,email,Invoice overdue,Invoice #5215 is overdue. Update payment here to avoid penalty: hxxps://sho[.]rt/a1B2c,shortener,unknown,phishing,ph_invoice,2026-08-22
+M0340,sms,Delivery update,Order #5991 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-08-29
+M0189,email,Virus detected,Warning! Your device is infected. Call support and share your password for removal. hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_tech_support,2026-02-24
+M0125,sms,KYC pending,Your KYC is expired. Update immediately to avoid account suspended. hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_kyc_update,2026-01-21
+M0081,sms,Parcel on hold,SwiftPost: your parcel is on hold. Pay customs fee Rs. 25 to release it: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_delivery_fee,2026-03-25
+M0322,email,Urgent: meeting moved,Urgent: the project review is moved to Friday at 10 AM in Room 204.,none,corporate,legitimate,lg_urgent_meeting,2026-03-21
+M0406,email,Scheduled maintenance,The campus network will be down for maintenance on Thursday from 11:30 AM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-08-25
+M0213,email,Security warning,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]52/login,ip_host,unknown,phishing,ph_tech_support,2026-08-13
+M0309,email,Reminder: review,Urgent: the project review is moved to Thursday at 4 PM in Seminar Hall.,none,corporate,legitimate,lg_urgent_meeting,2026-06-04
+M0330,email,Reminder: review,Please join the team meeting on Friday at 4 PM. Agenda is in the shared folder.,none,corporate,legitimate,lg_urgent_meeting,2026-06-05
+M0240,email,Invoice overdue,Payment failed for your subscription. Update payment method now: hxxps://sho[.]rt/x9Yz3,shortener,unknown,phishing,ph_invoice,2026-04-23
+M0343,sms,Delivery update,ExpressLine: your package will arrive on Friday. Track on the official website.,none,corporate,legitimate,lg_delivery_update,2026-05-02
+M0144,email,Tax refund available,You are eligible for a tax refund of a gift voucher. Submit your bank details to receive it. hxxps://portal[.]example[.]test/home,defanged_https,lookalike,phishing,ph_tax_refund,2026-05-02
+M0455,email,Exam timetable,Lab session on Wednesday at 4 PM in Seminar Hall. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-04-18
+M0448,email,Exam timetable,Lab session on Tuesday at 10 AM in Conference Room B. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-02-13
+M0256,email,Invoice overdue,"Your order #1649 could not be processed, confirm card details within 2 hours. hxxps://sho[.]rt/Qw7Er",shortener,unknown,phishing,ph_invoice,2026-03-14
+M0016,sms,Account alert,Final warning: account blocked within 24 hours. Update your bank details here hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_bank_block,2026-02-24
+M0288,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]5/login,ip_host,lookalike,phishing,ph_social_login,2026-02-02
+M0033,sms,Account alert,Final warning: account blocked within 6 hours. Update your bank details here hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_bank_block,2026-08-21
+M0359,sms,Delivery update,Order #5860 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-04-16
+M0220,email,Payroll update,HR: update your payroll bank details today to receive salary. Confirm here,none,lookalike,phishing,ph_ceo_payroll_spoof,2026-03-22
+M0176,email,Work from home,"Congratulations, you are selected for work from home. Pay Rs. 150 registration fee to start.",none,free_mail,phishing,ph_job_offer,2026-08-02
+M0411,email,Scheduled maintenance,The campus network will be down for maintenance on Wednesday from 11:30 AM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-02-13
+M0273,sms,Login attempt,Your account will be deleted for policy violation. Appeal immediately: hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_social_login,2026-03-28
+M0425,email,Exam timetable,Your electricity bill is due next week. Please check your official account.,none,corporate,legitimate,lg_college_notice,2026-08-08
+M0310,email,Urgent: meeting moved,Urgent: the project review is moved to Friday at 2 PM in Room 204.,none,corporate,legitimate,lg_urgent_meeting,2026-03-11
+M0282,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://192[.]0[.]2[.]57/login,ip_host,lookalike,phishing,ph_social_login,2026-09-05
+M0301,email,Payslip available,Reminder: submit your tax declaration by Friday through the HR portal,none,corporate,legitimate,lg_payroll_notice,2026-01-28
+M0416,email,Scheduled maintenance,The campus network will be down for maintenance on Monday from 10 AM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-02-10
+M0463,email,You are a winner!,You won a lottery draw. Send your bank details to receive a gift voucher. Claim it now! hxxps://sho[.]rt/Qw7Er!!,shortener,free_mail,phishing,ph_lottery,2026-03-02
+M0292,email,Your password was changed,"Your password was changed successfully. If you did not do this, contact the IT helpdesk at the front office.",none,corporate,legitimate,lg_password_reset,2026-07-29
+M0099,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 99 now or the package returns. hxxps://sho[.]rt/Qw7Er,shortener,unknown,phishing,ph_delivery_fee,2026-03-31
+M0222,email,Quick favour,HR: update your payroll bank details today to receive salary. Confirm here hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_ceo_payroll_spoof,2026-02-20
+M0368,sms,Delivery update,Order #1444 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-05-15
+M0264,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_social_login,2026-07-13
+M0284,sms,Login attempt,Your account will be deleted for policy violation. Appeal immediately: hxxp://192[.]0[.]2[.]6/login,ip_host,lookalike,phishing,ph_social_login,2026-02-07
+M0464,email,Invoice overdue,"YOUR ORDER #8961 COULD NOT BE PROCESSED, CONFIRM CARD DETAILS WITHIN 2 HOURS. HXXP://SECURE-LOGIN[.]EXAMPLE[.]TEST/VERIFY",defanged_http,unknown,phishing,ph_invoice,2026-08-18
+M0150,email,Refund notification,You are eligible for a tax refund of a new smartphone. Submit your bank details to receive it. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_tax_refund,2026-04-23
+M0179,email,Work from home,"Congratulations, you are selected for work from home. Pay Rs. 99 registration fee to start. hxxps://hr[.]example[.]test/policy",defanged_https,free_mail,phishing,ph_job_offer,2026-01-18
+M0286,sms,Login attempt,Your account will be deleted for policy violation. Appeal immediately: hxxp://192[.]0[.]2[.]86/login,ip_host,lookalike,phishing,ph_social_login,2026-07-20
+M0155,email,Tax refund available,Refund pending: confirm your identity and account number within 12 hours. hxxps://portal[.]example[.]test/home,defanged_https,lookalike,phishing,ph_tax_refund,2026-08-17
+M0133,sms,KYC pending,"Metro Savings: PAN update required, click here to verify your account. hxxps://sho[.]rt/x9Yz3",shortener,lookalike,phishing,ph_kyc_update,2026-06-13
+M0001,sms,Account alert,Your Northbank account will be blocked. Verify your details immediately!,none,lookalike,phishing,ph_bank_block,2026-01-24
+M0354,sms,Delivery update,Order #4212 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-06-16
+M0403,email,Scheduled maintenance,The campus network will be down for maintenance on Tuesday from 9 AM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-05-01
+M0127,sms,KYC pending,"Northbank: PAN update required, click here to verify your account. hxxps://sho[.]rt/a1B2c",shortener,lookalike,phishing,ph_kyc_update,2026-08-19
+M0149,email,Refund notification,Refund pending: confirm your identity and account number within 6 hours. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_tax_refund,2026-01-23
+M0394,email,Scheduled maintenance,The campus network will be down for maintenance on Friday from 2 PM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-08-29
+M0196,email,Virus detected,Your cloud storage is full and will be deleted in 12 hours. Verify your account here hxxp://192[.]0[.]2[.]42/login,ip_host,unknown,phishing,ph_tech_support,2026-06-30
+M0267,sms,Login attempt,Your account will be deleted for policy violation. Appeal immediately: hxxps://sho[.]rt/Qw7Er,shortener,lookalike,phishing,ph_social_login,2026-08-06
+M0139,email,Refund notification,Refund pending: confirm your identity and account number within 24 hours. hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_tax_refund,2026-05-31
+M0054,email,You are a winner!,You won a lottery draw. Send your bank details to receive a new smartphone. Claim it now! hxxp://secure-login[.]example[.]test/verify,defanged_http,free_mail,phishing,ph_lottery,2026-02-22
+M0366,sms,Delivery update,Order #2931 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-06-11
+M0437,email,Lab schedule,Lab session on Friday at 2 PM in Conference Room B. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-05-29
+M0175,email,Work from home,"Congratulations, you are selected for work from home. Pay Rs. 25 registration fee to start.",none,free_mail,phishing,ph_job_offer,2026-05-10
+M0324,email,Urgent: meeting moved,Please join the team meeting on Monday at 11:30 AM. Agenda is in the shared folder.,none,corporate,legitimate,lg_urgent_meeting,2026-06-21
+M0084,sms,Parcel on hold,QuickParcel: your parcel is on hold. Pay customs fee Rs. 150 to release it: hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_delivery_fee,2026-02-26
+M0053,email,Claim your prize,Congratulations! You have won a laptop. Pay a small fee of Rs. 150 to claim your reward.,none,free_mail,phishing,ph_lottery,2026-03-06
+M0122,sms,KYC pending,"Riverstone Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/a1B2c",shortener,lookalike,phishing,ph_kyc_update,2026-04-10
+M0075,sms,Parcel on hold,"QuickParcel alert: address incomplete, confirm your card details to ship. hxxp://secure-login[.]example[.]test/verify",defanged_http,unknown,phishing,ph_delivery_fee,2026-04-17
+M0360,sms,Delivery update,CityCourier: your package will arrive on Thursday. Track on the official website.,none,corporate,legitimate,lg_delivery_update,2026-08-11
+M0410,email,Scheduled maintenance,The campus network will be down for maintenance on Friday from 10 AM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-01-23
+M0391,email,Scheduled maintenance,IT notice: please update your laptop software this week. Instructions:,none,corporate,legitimate,lg_it_maintenance,2026-03-05
+M0161,email,Refund notification,You are eligible for a tax refund of a gift voucher. Submit your bank details to receive it. hxxps://hr[.]example[.]test/policy,defanged_https,lookalike,phishing,ph_tax_refund,2026-02-18
+M0003,sms,Account alert,Metro Savings notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_bank_block,2026-05-18
+M0469,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]67/login!!,ip_host,lookalike,phishing,ph_social_login,2026-01-20
+M0068,email,Claim your prize,"Winner notice: Rs. 50,000 is waiting. Reply with your address and processing fee Rs. 150.",defanged_http,free_mail,phishing,ph_lottery,2026-01-16
+M0251,email,Invoice overdue,"Your order #4106 could not be processed, confirm card details within 2 hours. hxxp://account-update[.]example[.]test/confirm",defanged_http,unknown,phishing,ph_invoice,2026-07-12
+M0314,email,Reminder: review,Reminder: your college project review is tomorrow at 9 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-07-08
+M0247,email,Invoice overdue,"Your order #2774 could not be processed, confirm card details within 12 hours. hxxp://secure-login[.]example[.]test/verify",defanged_http,unknown,phishing,ph_invoice,2026-08-05
+M0337,email,Reminder: review,Urgent: the project review is moved to Monday at 10 AM in Seminar Hall.,none,corporate,legitimate,lg_urgent_meeting,2026-06-01
+M0293,email,Your password was changed,Password expiry reminder: your password expires in 7 days. Change it from the official portal when convenient.,none,corporate,legitimate,lg_password_reset,2026-08-05
+M0177,email,Job offer - immediate joining,"Congratulations, you are selected for work from home. Pay Rs. 99 registration fee to start.",none,free_mail,phishing,ph_job_offer,2026-08-10
+M0468,email,Reminder: review,YOUR MEETING IS SCHEDULED FOR MONDAY AT 9 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-06-27
+M0138,email,Refund notification,You are eligible for a tax refund of a laptop. Submit your bank details to receive it. hxxps://portal[.]example[.]test/home,defanged_https,lookalike,phishing,ph_tax_refund,2026-08-14
+M0414,email,Scheduled maintenance,The campus network will be down for maintenance on Thursday from 10 AM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-04-16
+M0245,email,Payment failed,"Your order #7112 could not be processed, confirm card details within 24 hours. hxxp://account-update[.]example[.]test/confirm",defanged_http,unknown,phishing,ph_invoice,2026-05-28
+M0207,email,Security warning,Warning! Your device is infected. Call support and share your password for removal. hxxp://192[.]0[.]2[.]78/login,ip_host,unknown,phishing,ph_tech_support,2026-06-19
+M0145,email,Refund notification,"You are eligible for a tax refund of Rs. 50,000. Submit your bank details to receive it. hxxp://secure-login[.]example[.]test/verify",defanged_http,lookalike,phishing,ph_tax_refund,2026-02-28
+M0074,sms,Parcel on hold,QuickParcel: your parcel is on hold. Pay customs fee Rs. 25 to release it: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_delivery_fee,2026-04-27
+M0047,email,You are a winner!,You won a lottery draw. Send your bank details to receive a free vacation. Claim it now! hxxps://sho[.]rt/x9Yz3,shortener,free_mail,phishing,ph_lottery,2026-05-23
+M0393,email,Scheduled maintenance,IT notice: please update your laptop software this week. Instructions: hxxps://hr[.]example[.]test/policy,defanged_https,corporate,legitimate,lg_it_maintenance,2026-04-17
+M0421,email,Holiday notice,Office will remain closed on Friday for a public holiday.,defanged_https,corporate,legitimate,lg_hr_policy,2026-07-07
+M0346,sms,Delivery update,QuickParcel: your package will arrive on Thursday. Track on the official website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-01-14
+M0311,email,Urgent: meeting moved,Urgent: the project review is moved to Friday at 9 AM in Room 204.,none,corporate,legitimate,lg_urgent_meeting,2026-03-04
+M0328,email,Reminder: review,Urgent: the project review is moved to Tuesday at 9 AM in Seminar Hall.,none,corporate,legitimate,lg_urgent_meeting,2026-03-09
+M0298,email,Payslip available,Payroll calendar: salaries will be credited on the last working day. Contact HR for queries.,none,corporate,legitimate,lg_payroll_notice,2026-01-15
+M0166,email,Refund notification,You are eligible for a tax refund of a free vacation. Submit your bank details to receive it. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_tax_refund,2026-03-16
+M0205,email,Virus detected,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_tech_support,2026-08-30
+M0379,sms,Bank notification,"Northbank: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP.",none,corporate,legitimate,lg_bank_official,2026-06-30
+M0452,email,Lab schedule,Lab session on Friday at 9 AM in Conference Room B. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-02-28
+M0051,email,You are a winner!,Congratulations! You have won a laptop. Pay a small fee of Rs. 25 to claim your reward.,none,free_mail,phishing,ph_lottery,2026-05-01
+M0164,email,Refund notification,You are eligible for a tax refund of a free vacation. Submit your bank details to receive it. hxxps://hr[.]example[.]test/policy,defanged_https,lookalike,phishing,ph_tax_refund,2026-02-19
+M0329,email,Reminder: review,Your meeting is scheduled for Thursday at 10 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-02-25
+M0300,email,Payroll notice,Reminder: submit your tax declaration by Friday through the HR portal hxxps://portal[.]example[.]test/home,defanged_https,corporate,legitimate,lg_payroll_notice,2026-02-18
+M0186,email,Security warning,Your cloud storage is full and will be deleted in 2 hours. Verify your account here hxxp://192[.]0[.]2[.]34/login,ip_host,unknown,phishing,ph_tech_support,2026-04-22
+M0071,sms,Parcel on hold,SwiftPost: your parcel is on hold. Pay customs fee Rs. 99 to release it: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_delivery_fee,2026-01-14
+M0184,email,Work from home,"Congratulations, you are selected for work from home. Pay Rs. 150 registration fee to start. hxxps://hr[.]example[.]test/policy",defanged_https,free_mail,phishing,ph_job_offer,2026-05-14
+M0143,email,Refund notification,Refund pending: confirm your identity and account number within 12 hours. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_tax_refund,2026-08-25
+M0344,sms,Delivery update,Order #8543 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-05-25
+M0370,sms,Delivery update,QuickParcel: your package will arrive on Tuesday. Track on the official website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-07-02
+M0239,email,Invoice overdue,Payment failed for your subscription. Update payment method now: hxxps://sho[.]rt/a1B2c,shortener,unknown,phishing,ph_invoice,2026-03-01
+M0383,sms,Bank notification,Metro Savings reminder: never share your PIN or OTP with anyone.,none,corporate,legitimate,lg_bank_official,2026-03-18
+M0373,sms,Delivery update,Order #8067 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-07-15
+M0374,sms,Bank notification,"Metro Savings: Rs. 1,200 debited from your account. If not you, visit your branch. We never ask for OTP.",none,corporate,legitimate,lg_bank_official,2026-04-25
+M0443,email,Exam timetable,Lab session on Friday at 2 PM in Seminar Hall. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-08-24
+M0392,email,Scheduled maintenance,The campus network will be down for maintenance on Monday from 2 PM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-01-07
+M0335,email,Reminder: review,Please join the team meeting on Monday at 10 AM. Agenda is in the shared folder.,none,corporate,legitimate,lg_urgent_meeting,2026-06-15
+M0260,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxps://sho[.]rt/x9Yz3,shortener,lookalike,phishing,ph_social_login,2026-02-06
+M0106,sms,KYC pending,"Dear customer, complete KYC verification today or services stop. Share OTP to continue. hxxp://secure-login[.]example[.]test/verify",defanged_http,lookalike,phishing,ph_kyc_update,2026-05-09
+M0238,email,Payment failed,Invoice #4145 is overdue. Update payment here to avoid penalty: hxxps://sho[.]rt/Qw7Er,shortener,unknown,phishing,ph_invoice,2026-02-19
+M0202,email,Security warning,Your cloud storage is full and will be deleted in 24 hours. Verify your account here hxxp://192[.]0[.]2[.]42/login,ip_host,unknown,phishing,ph_tech_support,2026-05-05
+M0103,sms,KYC pending,Your KYC is expired. Update immediately to avoid account suspended. hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_kyc_update,2026-07-02
+M0349,sms,Delivery update,SwiftPost: your package will arrive on Wednesday. Track on the official website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-06-18
+M0441,email,Lab schedule,Lab session on Tuesday at 10 AM in Room 204. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-03-17
+M0397,email,Scheduled maintenance,The campus network will be down for maintenance on Tuesday from 10 AM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-07-22
+M0058,email,You are a winner!,Congratulations! You have won a new smartphone. Pay a small fee of Rs. 99 to claim your reward.,none,free_mail,phishing,ph_lottery,2026-04-15
+M0249,email,Payment failed,Invoice #5726 is overdue. Update payment here to avoid penalty: hxxps://sho[.]rt/a1B2c,shortener,unknown,phishing,ph_invoice,2026-07-26
+M0297,email,Payroll notice,Your payslip for this month is available on the HR portal. No action is needed.,none,corporate,legitimate,lg_payroll_notice,2026-05-05
+M0430,email,Exam timetable,Lab session on Monday at 2 PM in Conference Room B. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-01-14
+M0009,sms,Account alert,Riverstone Bank notice: unusual login detected. Confirm your identity now or the account is suspended.,none,lookalike,phishing,ph_bank_block,2026-06-24
+M0371,sms,Delivery update,Order #4138 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-06-23
+M0231,email,Payment failed,"Your order #4035 could not be processed, confirm card details within 6 hours. hxxp://account-update[.]example[.]test/confirm",defanged_http,unknown,phishing,ph_invoice,2026-02-07
+M0131,sms,KYC pending,"Axis Plain Bank: PAN update required, click here to verify your account. hxxps://sho[.]rt/a1B2c",shortener,lookalike,phishing,ph_kyc_update,2026-05-11
+M0070,sms,Parcel on hold,"QuickParcel alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/a1B2c",shortener,unknown,phishing,ph_delivery_fee,2026-05-19
+M0029,sms,Account alert,Urgent! Your Riverstone Bank card is locked. Click here to confirm your password:,none,lookalike,phishing,ph_bank_block,2026-01-24
+M0006,sms,Account alert,Urgent! Your Axis Plain Bank card is locked. Click here to confirm your password: hxxps://sho[.]rt/x9Yz3,shortener,lookalike,phishing,ph_bank_block,2026-02-24
+M0056,email,You are a winner!,"You won a lottery draw. Send your bank details to receive Rs. 50,000. Claim it now! hxxps://sho[.]rt/a1B2c",shortener,free_mail,phishing,ph_lottery,2026-04-27
+M0048,email,You are a winner!,Winner notice: a gift voucher is waiting. Reply with your address and processing fee Rs. 99.,defanged_http,free_mail,phishing,ph_lottery,2026-06-10
+M0221,email,Payroll update,"Please change my salary account to the new one attached. Do not call, urgent.",none,lookalike,phishing,ph_ceo_payroll_spoof,2026-06-12
+M0014,sms,Account alert,Northbank notice: unusual login detected. Confirm your identity now or the account is suspended. hxxps://sho[.]rt/x9Yz3,shortener,lookalike,phishing,ph_bank_block,2026-04-14
+M0372,sms,Delivery update,Order #4413 has been shipped and will arrive within 3 days.,none,corporate,legitimate,lg_delivery_update,2026-05-08
+M0124,sms,KYC pending,"Metro Savings: PAN update required, click here to verify your account. hxxps://sho[.]rt/a1B2c",shortener,lookalike,phishing,ph_kyc_update,2026-07-15
+M0191,email,Security warning,Security alert: your email will be closed. Click here to keep it active hxxp://192[.]0[.]2[.]73/login,ip_host,unknown,phishing,ph_tech_support,2026-05-02
+M0067,email,Claim your prize,Congratulations! You have won a gift voucher. Pay a small fee of Rs. 150 to claim your reward.,none,free_mail,phishing,ph_lottery,2026-08-29
+M0250,email,Payment failed,Invoice #9078 is overdue. Update payment here to avoid penalty: hxxps://sho[.]rt/x9Yz3,shortener,unknown,phishing,ph_invoice,2026-05-16
+M0333,email,Reminder: review,Your meeting is scheduled for Tuesday at 11:30 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-07-31
+M0219,email,Quick favour,"I am in a meeting, need gift cards urgently. Send money now and I will refund later.",none,lookalike,phishing,ph_ceo_payroll_spoof,2026-04-23
+M0102,sms,Parcel on hold,"CityCourier alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/a1B2c",shortener,unknown,phishing,ph_delivery_fee,2026-02-21
+M0118,sms,KYC pending,"Northbank: PAN update required, click here to verify your account. hxxps://sho[.]rt/x9Yz3",shortener,lookalike,phishing,ph_kyc_update,2026-01-12
+M0128,sms,KYC pending,"Northbank: PAN update required, click here to verify your account. hxxp://account-update[.]example[.]test/confirm",defanged_http,lookalike,phishing,ph_kyc_update,2026-05-27
+M0258,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]43/login,ip_host,lookalike,phishing,ph_social_login,2026-07-28
+M0090,sms,Parcel on hold,"ExpressLine alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/Qw7Er",shortener,unknown,phishing,ph_delivery_fee,2026-02-03
+M0217,email,Virus detected,Your cloud storage is full and will be deleted in 6 hours. Verify your account here hxxp://192[.]0[.]2[.]14/login,ip_host,unknown,phishing,ph_tech_support,2026-05-23
+M0401,email,Scheduled maintenance,The campus network will be down for maintenance on Wednesday from 10 AM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-05-12
+M0073,sms,Parcel on hold,"CityCourier alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/Qw7Er",shortener,unknown,phishing,ph_delivery_fee,2026-07-02
+M0163,email,Tax refund available,You are eligible for a tax refund of a laptop. Submit your bank details to receive it. hxxp://account-update[.]example[.]test/confirm,defanged_http,lookalike,phishing,ph_tax_refund,2026-03-23
+M0169,email,Tax refund available,You are eligible for a tax refund of a free vacation. Submit your bank details to receive it. hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_tax_refund,2026-02-17
+M0449,email,Exam timetable,Lab session on Monday at 9 AM in Conference Room B. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-02-16
+M0275,sms,Login attempt,Someone tried to log in to your social account. Secure it now: hxxp://192[.]0[.]2[.]93/login,ip_host,lookalike,phishing,ph_social_login,2026-05-23
+M0400,email,Scheduled maintenance,The campus network will be down for maintenance on Tuesday from 11:30 AM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-03-09
+M0327,email,Urgent: meeting moved,Your meeting is scheduled for Friday at 11:30 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-01-16
+M0420,email,Holiday notice,Office will remain closed on Thursday for a public holiday.,defanged_https,corporate,legitimate,lg_hr_policy,2026-04-05
+M0436,email,Exam timetable,Lab session on Monday at 4 PM in Lab 3. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-05-26
+M0059,email,Claim your prize,Congratulations! You have won a gift voucher. Pay a small fee of Rs. 99 to claim your reward.,none,free_mail,phishing,ph_lottery,2026-09-02
+M0130,sms,KYC pending,"Riverstone Bank: PAN update required, click here to verify your account. hxxp://account-update[.]example[.]test/confirm",defanged_http,lookalike,phishing,ph_kyc_update,2026-06-18
+M0060,email,You are a winner!,Winner notice: a free vacation is waiting. Reply with your address and processing fee Rs. 49.,defanged_http,free_mail,phishing,ph_lottery,2026-04-24
+M0438,email,Lab schedule,Lab session on Tuesday at 2 PM in Room 204. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-05-18
+M0466,email,Scheduled maintenance,THE CAMPUS NETWORK WILL BE DOWN FOR MAINTENANCE ON FRIDAY FROM 10 AM. PLEASE SAVE YOUR WORK.,none,corporate,legitimate,lg_it_maintenance,2026-01-23
+M0375,sms,Bank notification,Unity Bank reminder: never share your PIN or OTP with anyone.,none,corporate,legitimate,lg_bank_official,2026-04-12
+M0353,sms,Delivery update,QuickParcel: your package will arrive on Wednesday. Track on the official website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-07-16
+M0241,email,Invoice overdue,"Your order #5820 could not be processed, confirm card details within 6 hours. hxxps://sho[.]rt/x9Yz3",shortener,unknown,phishing,ph_invoice,2026-06-27
+M0398,email,Scheduled maintenance,The campus network will be down for maintenance on Friday from 9 AM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-01-28
+M0336,email,Reminder: review,Urgent: the project review is moved to Tuesday at 4 PM in Seminar Hall.,none,corporate,legitimate,lg_urgent_meeting,2026-08-25
+M0381,sms,Bank notification,Unity Bank: your statement is ready. View it in the official mobile app.,none,corporate,legitimate,lg_bank_official,2026-08-20
+M0076,sms,Parcel on hold,Delivery failed. Re-schedule and pay Rs. 49 now or the package returns. hxxps://sho[.]rt/x9Yz3,shortener,unknown,phishing,ph_delivery_fee,2026-01-25
+M0413,email,Scheduled maintenance,The campus network will be down for maintenance on Tuesday from 4 PM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-05-27
+M0281,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]93/login,ip_host,lookalike,phishing,ph_social_login,2026-04-12
+M0057,email,Claim your prize,"You won a lottery draw. Send your bank details to receive Rs. 50,000. Claim it now! hxxp://account-update[.]example[.]test/confirm",defanged_http,free_mail,phishing,ph_lottery,2026-06-19
+M0078,sms,Parcel on hold,"SwiftPost alert: address incomplete, confirm your card details to ship. hxxps://sho[.]rt/x9Yz3",shortener,unknown,phishing,ph_delivery_fee,2026-01-02
+M0312,email,Urgent: meeting moved,Reminder: your college project review is tomorrow at 11:30 AM.,none,corporate,legitimate,lg_urgent_meeting,2026-01-05
+M0002,sms,Account alert,Your Axis Plain Bank account will be blocked. Verify your details immediately! hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_bank_block,2026-03-29
+M0424,email,Exam timetable,Lab session on Wednesday at 11:30 AM in Conference Room B. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-02-11
+M0254,email,Invoice overdue,Invoice #2912 is overdue. Update payment here to avoid penalty: hxxps://sho[.]rt/a1B2c,shortener,unknown,phishing,ph_invoice,2026-06-29
+M0120,sms,KYC pending,"Metro Savings: PAN update required, click here to verify your account. hxxp://secure-login[.]example[.]test/verify",defanged_http,lookalike,phishing,ph_kyc_update,2026-03-12
+M0085,sms,Parcel on hold,QuickParcel: your parcel is on hold. Pay customs fee Rs. 99 to release it: hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_delivery_fee,2026-02-20
+M0046,email,You are a winner!,Winner notice: a gift voucher is waiting. Reply with your address and processing fee Rs. 150.,shortener,free_mail,phishing,ph_lottery,2026-07-30
+M0308,email,Urgent: meeting moved,Please join the team meeting on Tuesday at 2 PM. Agenda is in the shared folder.,none,corporate,legitimate,lg_urgent_meeting,2026-06-10
+M0204,email,Virus detected,Your cloud storage is full and will be deleted in 12 hours. Verify your account here hxxp://account-update[.]example[.]test/confirm,defanged_http,unknown,phishing,ph_tech_support,2026-08-09
+M0279,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxps://sho[.]rt/Qw7Er,shortener,lookalike,phishing,ph_social_login,2026-02-26
+M0276,sms,Login attempt,Your account will be deleted for policy violation. Appeal immediately: hxxp://192[.]0[.]2[.]38/login,ip_host,lookalike,phishing,ph_social_login,2026-03-29
+M0396,email,Scheduled maintenance,The campus network will be down for maintenance on Friday from 4 PM. Please save your work.,defanged_https,corporate,legitimate,lg_it_maintenance,2026-05-14
+M0190,email,Virus detected,Your cloud storage is full and will be deleted in 12 hours. Verify your account here hxxp://secure-login[.]example[.]test/verify,defanged_http,unknown,phishing,ph_tech_support,2026-03-08
+M0162,email,Tax refund available,"You are eligible for a tax refund of Rs. 50,000. Submit your bank details to receive it. hxxp://account-update[.]example[.]test/confirm",defanged_http,lookalike,phishing,ph_tax_refund,2026-03-06
+M0433,email,Exam timetable,Exam timetable has been published. Check the notice board or portal hxxps://hr[.]example[.]test/policy,defanged_https,corporate,legitimate,lg_college_notice,2026-05-29
+M0172,email,Work from home,Job offer confirmed. Send your ID copy and bank details to HR to receive joining letter.,defanged_https,free_mail,phishing,ph_job_offer,2026-04-23
+M0209,email,Security warning,Security alert: your email will be closed. Click here to keep it active hxxp://192[.]0[.]2[.]93/login,ip_host,unknown,phishing,ph_tech_support,2026-08-09
+M0432,email,Lab schedule,Lab session on Thursday at 10 AM in Room 204. Bring your record book.,defanged_https,corporate,legitimate,lg_college_notice,2026-01-04
+M0302,email,Reminder: review,Reminder: your college project review is tomorrow at 4 PM.,none,corporate,legitimate,lg_urgent_meeting,2026-02-25
+M0228,email,Invoice overdue,"Your order #2639 could not be processed, confirm card details within 12 hours. hxxps://sho[.]rt/x9Yz3",shortener,unknown,phishing,ph_invoice,2026-05-23
+M0315,email,Reminder: review,Urgent: the project review is moved to Tuesday at 2 PM in Room 204.,none,corporate,legitimate,lg_urgent_meeting,2026-02-19
+M0020,sms,Account alert,Urgent! Your Unity Bank card is locked. Click here to confirm your password: hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_bank_block,2026-06-09
+M0389,email,Scheduled maintenance,The campus network will be down for maintenance on Wednesday from 4 PM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-08-24
+M0283,sms,Login attempt,Verify you are not a robot. Enter your password to keep your profile: hxxp://192[.]0[.]2[.]51/login,ip_host,lookalike,phishing,ph_social_login,2026-07-16
+M0306,email,Urgent: meeting moved,Your meeting is scheduled for Tuesday at 2 PM.,none,corporate,legitimate,lg_urgent_meeting,2026-05-03
+M0043,email,Claim your prize,You won a lottery draw. Send your bank details to receive a new smartphone. Claim it now!,none,free_mail,phishing,ph_lottery,2026-05-22
+M0007,sms,Account alert,Urgent! Your Unity Bank card is locked. Click here to confirm your password:,none,lookalike,phishing,ph_bank_block,2026-07-11
+M0181,email,Job offer - immediate joining,"Congratulations, you are selected for work from home. Pay Rs. 25 registration fee to start. hxxps://portal[.]example[.]test/home",defanged_https,free_mail,phishing,ph_job_offer,2026-06-28
+M0050,email,You are a winner!,Winner notice: a gift voucher is waiting. Reply with your address and processing fee Rs. 49.,none,free_mail,phishing,ph_lottery,2026-07-22
+M0388,sms,Bank notification,Riverstone Bank: your statement is ready. View it in the official mobile app.,none,corporate,legitimate,lg_bank_official,2026-03-09
+M0417,email,Holiday notice,Office will remain closed on Tuesday for a public holiday.,defanged_https,corporate,legitimate,lg_hr_policy,2026-04-17
+M0062,email,Claim your prize,Congratulations! You have won a new smartphone. Pay a small fee of Rs. 49 to claim your reward. hxxp://secure-login[.]example[.]test/verify,defanged_http,free_mail,phishing,ph_lottery,2026-04-28
+M0355,sms,Delivery update,CityCourier: your package will arrive on Tuesday. Track on the official website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-02-27
+M0459,email,Exam timetable,Lab session on Thursday at 4 PM in Lab 3. Bring your record book.,none,corporate,legitimate,lg_college_notice,2026-05-09
+M0036,email,You are a winner!,"Congratulations! You have won Rs. 50,000. Pay a small fee of Rs. 25 to claim your reward.",none,free_mail,phishing,ph_lottery,2026-05-25
+M0408,email,Scheduled maintenance,The campus network will be down for maintenance on Wednesday from 2 PM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-02-15
+M0307,email,Reminder: review,Urgent: the project review is moved to Monday at 2 PM in Room 204.,none,corporate,legitimate,lg_urgent_meeting,2026-04-14
+M0173,email,Job offer - immediate joining,"Congratulations, you are selected for work from home. Pay Rs. 49 registration fee to start.",none,free_mail,phishing,ph_job_offer,2026-04-27
+M0146,email,Refund notification,Refund pending: confirm your identity and account number within 6 hours. hxxps://hr[.]example[.]test/policy,defanged_https,lookalike,phishing,ph_tax_refund,2026-06-03
+M0467,email,Invoice overdue,Invoice #7206 is overdue. Update payment here to avoid penalty: hxxps://sho[.]rt/Qw7Er!!,shortener,unknown,phishing,ph_invoice,2026-07-22
+M0246,email,Payment failed,Invoice #8822 is overdue. Update payment here to avoid penalty: hxxps://sho[.]rt/x9Yz3,shortener,unknown,phishing,ph_invoice,2026-04-14
+M0323,email,Reminder: review,Urgent: the project review is moved to Friday at 10 AM in Lab 3.,none,corporate,legitimate,lg_urgent_meeting,2026-08-04
+M0183,email,Work from home,"Congratulations, you are selected for work from home. Pay Rs. 49 registration fee to start. hxxps://portal[.]example[.]test/home",defanged_https,free_mail,phishing,ph_job_offer,2026-07-08
+M0350,sms,Delivery update,Order #2347 has been shipped and will arrive within 3 days.,defanged_https,corporate,legitimate,lg_delivery_update,2026-05-05
+M0049,email,Claim your prize,"Winner notice: Rs. 50,000 is waiting. Reply with your address and processing fee Rs. 49.",shortener,free_mail,phishing,ph_lottery,2026-06-26
+M0112,sms,KYC pending,Your KYC is expired. Update immediately to avoid account suspended. hxxps://sho[.]rt/Qw7Er,shortener,lookalike,phishing,ph_kyc_update,2026-02-13
+M0182,email,Job offer - immediate joining,"Congratulations, you are selected for work from home. Pay Rs. 150 registration fee to start. hxxps://portal[.]example[.]test/home",defanged_https,free_mail,phishing,ph_job_offer,2026-08-25
+M0304,email,Urgent: meeting moved,Your meeting is scheduled for Wednesday at 2 PM.,none,corporate,legitimate,lg_urgent_meeting,2026-07-26
+M0168,email,Refund notification,Refund pending: confirm your identity and account number within 6 hours. hxxps://portal[.]example[.]test/home,defanged_https,lookalike,phishing,ph_tax_refund,2026-05-14
+M0019,sms,Account alert,Your Unity Bank account will be blocked. Verify your details immediately! hxxp://secure-login[.]example[.]test/verify,defanged_http,lookalike,phishing,ph_bank_block,2026-08-28
+M0342,sms,Delivery update,Your package delivery is delayed. Check the official delivery website.,defanged_https,corporate,legitimate,lg_delivery_update,2026-01-20
+M0399,email,Scheduled maintenance,The campus network will be down for maintenance on Friday from 11:30 AM. Please save your work.,none,corporate,legitimate,lg_it_maintenance,2026-01-09
+M0153,email,Refund notification,You are eligible for a tax refund of a laptop. Submit your bank details to receive it. hxxps://hr[.]example[.]test/policy,defanged_https,lookalike,phishing,ph_tax_refund,2026-06-24
+M0325,email,Reminder: review,Please join the team meeting on Friday at 11:30 AM. Agenda is in the shared folder.,none,corporate,legitimate,lg_urgent_meeting,2026-02-11
+M0035,email,You are a winner!,You won a lottery draw. Send your bank details to receive a gift voucher. Claim it now! hxxp://account-update[.]example[.]test/confirm,defanged_http,free_mail,phishing,ph_lottery,2026-07-19
+M0110,sms,KYC pending,"Axis Plain Bank: PAN update required, click here to verify your account. hxxp://secure-login[.]example[.]test/verify",defanged_http,lookalike,phishing,ph_kyc_update,2026-02-08
+M0111,sms,KYC pending,"Metro Savings: PAN update required, click here to verify your account. hxxp://account-update[.]example[.]test/confirm",defanged_http,lookalike,phishing,ph_kyc_update,2026-04-05
+M0025,sms,Account alert,Your Metro Savings account will be blocked. Verify your details immediately! hxxps://sho[.]rt/a1B2c,shortener,lookalike,phishing,ph_bank_block,2026-06-05
+M0063,email,You are a winner!,Congratulations! You have won a gift voucher. Pay a small fee of Rs. 49 to claim your reward. hxxp://account-update[.]example[.]test/confirm,defanged_http,free_mail,phishing,ph_lottery,2026-09-08
